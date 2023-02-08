@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "@stdlib/random-array-arcsine": "^null",
+    "@stdlib/random-array-uniform": "^null",
     "@stdlib/utils-define-read-only-property": "^0.0.8"
   },
   "devDependencies": {
@@ -58,6 +59,7 @@
     "@stdlib/math-base-special-pow": "^0.0.7",
     "@stdlib/random-base-arcsine": "^0.0.6",
     "@stdlib/random-base-minstd": "^0.0.6",
+    "@stdlib/random-base-uniform": "^0.0.6",
     "@stdlib/strided-base-binary": "^0.0.8",
     "@stdlib/strided-base-nullary": "^0.0.7",
     "@stdlib/string-format": "^0.0.3",
