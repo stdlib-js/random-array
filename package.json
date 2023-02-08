@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "@stdlib/random-array-arcsine": "^null",
+    "@stdlib/random-array-discrete-uniform": "^null",
     "@stdlib/random-array-normal": "^null",
     "@stdlib/random-array-uniform": "^null",
     "@stdlib/utils-define-read-only-property": "^0.0.8"
@@ -45,6 +46,9 @@
     "@stdlib/array-base-filled-by": "^0.0.2",
     "@stdlib/array-float32": "^0.0.6",
     "@stdlib/array-float64": "^0.0.6",
+    "@stdlib/array-int32": "^0.0.6",
+    "@stdlib/array-typed-real-ctors": "^0.0.1",
+    "@stdlib/array-typed-real-dtypes": "^0.0.2",
     "@stdlib/array-typed-real-float-ctors": "^0.0.1",
     "@stdlib/array-typed-real-float-dtypes": "^0.0.1",
     "@stdlib/array-uint32": "^0.0.6",
@@ -59,6 +63,7 @@
     "@stdlib/math-base-assert-is-nanf": "^0.0.8",
     "@stdlib/math-base-special-pow": "^0.0.7",
     "@stdlib/random-base-arcsine": "^0.0.6",
+    "@stdlib/random-base-discrete-uniform": "^0.0.6",
     "@stdlib/random-base-minstd": "^0.0.6",
     "@stdlib/random-base-normal": "^0.0.6",
     "@stdlib/random-base-uniform": "^0.0.6",
