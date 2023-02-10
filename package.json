@@ -38,6 +38,7 @@
   "dependencies": {
     "@stdlib/random-array-arcsine": "^null",
     "@stdlib/random-array-discrete-uniform": "^null",
+    "@stdlib/random-array-lognormal": "^null",
     "@stdlib/random-array-normal": "^null",
     "@stdlib/random-array-uniform": "^null",
     "@stdlib/utils-define-read-only-property": "^0.0.8"
@@ -64,6 +65,7 @@
     "@stdlib/math-base-special-pow": "^0.0.7",
     "@stdlib/random-base-arcsine": "^0.0.6",
     "@stdlib/random-base-discrete-uniform": "^0.0.6",
+    "@stdlib/random-base-lognormal": "^0.0.6",
     "@stdlib/random-base-minstd": "^0.0.6",
     "@stdlib/random-base-normal": "^0.0.6",
     "@stdlib/random-base-uniform": "^0.0.6",
