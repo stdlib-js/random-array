@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "@stdlib/random-array-arcsine": "^null",
+    "@stdlib/random-array-beta": "^null",
     "@stdlib/random-array-discrete-uniform": "^null",
     "@stdlib/random-array-lognormal": "^null",
     "@stdlib/random-array-normal": "^null",
@@ -64,6 +65,7 @@
     "@stdlib/math-base-assert-is-nanf": "^0.0.8",
     "@stdlib/math-base-special-pow": "^0.0.7",
     "@stdlib/random-base-arcsine": "^0.0.6",
+    "@stdlib/random-base-beta": "^0.0.7",
     "@stdlib/random-base-discrete-uniform": "^0.0.6",
     "@stdlib/random-base-lognormal": "^0.0.6",
     "@stdlib/random-base-minstd": "^0.0.6",
