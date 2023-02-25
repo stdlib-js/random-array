@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/random-array",
-  "version": null,
+  "version": "0.0.0",
   "description": "Pseudorandom number generator array creation functions.",
   "license": "Apache-2.0",
   "author": {
@@ -36,19 +36,19 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/random-array-arcsine": "^github:stdlib-js/random-array-arcsine#main",
-    "@stdlib/random-array-beta": "^github:stdlib-js/random-array-beta#main",
-    "@stdlib/random-array-betaprime": "^github:stdlib-js/random-array-betaprime#main",
-    "@stdlib/random-array-discrete-uniform": "^github:stdlib-js/random-array-discrete-uniform#main",
-    "@stdlib/random-array-exponential": "^github:stdlib-js/random-array-exponential#main",
-    "@stdlib/random-array-gamma": "^github:stdlib-js/random-array-gamma#main",
-    "@stdlib/random-array-invgamma": "^github:stdlib-js/random-array-invgamma#main",
-    "@stdlib/random-array-lognormal": "^github:stdlib-js/random-array-lognormal#main",
-    "@stdlib/random-array-minstd": "^github:stdlib-js/random-array-minstd#main",
-    "@stdlib/random-array-mt19937": "^github:stdlib-js/random-array-mt19937#main",
-    "@stdlib/random-array-normal": "^github:stdlib-js/random-array-normal#main",
-    "@stdlib/random-array-randu": "^github:stdlib-js/random-array-randu#main",
-    "@stdlib/random-array-uniform": "^github:stdlib-js/random-array-uniform#main",
+    "@stdlib/random-array-arcsine": "github:stdlib-js/random-array-arcsine#main",
+    "@stdlib/random-array-beta": "github:stdlib-js/random-array-beta#main",
+    "@stdlib/random-array-betaprime": "github:stdlib-js/random-array-betaprime#main",
+    "@stdlib/random-array-discrete-uniform": "github:stdlib-js/random-array-discrete-uniform#main",
+    "@stdlib/random-array-exponential": "github:stdlib-js/random-array-exponential#main",
+    "@stdlib/random-array-gamma": "github:stdlib-js/random-array-gamma#main",
+    "@stdlib/random-array-invgamma": "github:stdlib-js/random-array-invgamma#main",
+    "@stdlib/random-array-lognormal": "github:stdlib-js/random-array-lognormal#main",
+    "@stdlib/random-array-minstd": "github:stdlib-js/random-array-minstd#main",
+    "@stdlib/random-array-mt19937": "github:stdlib-js/random-array-mt19937#main",
+    "@stdlib/random-array-normal": "github:stdlib-js/random-array-normal#main",
+    "@stdlib/random-array-randu": "github:stdlib-js/random-array-randu#main",
+    "@stdlib/random-array-uniform": "github:stdlib-js/random-array-uniform#main",
     "@stdlib/utils-define-read-only-property": "^0.0.8"
   },
   "devDependencies": {
