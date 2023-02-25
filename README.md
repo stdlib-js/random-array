@@ -31,13 +31,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@v0.0.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { arcsine, beta, betaprime, discreteUniform, exponential, gamma, invgamma, lognormal, minstd, mt19937, normal, randu, uniform } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@esm/index.mjs';
+import { arcsine, beta, betaprime, discreteUniform, exponential, gamma, invgamma, lognormal, minstd, mt19937, normal, randu, uniform } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@v0.0.0-esm/index.mjs';
 ```
 
 #### ns
@@ -92,7 +92,7 @@ The namespace contains the following:
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@v0.0.0-esm/index.mjs';
 
 console.log( objectKeys( ns ) );
 
