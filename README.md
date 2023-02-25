@@ -31,13 +31,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@v0.0.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { arcsine, beta, betaprime, discreteUniform, exponential, gamma, invgamma, lognormal, minstd, mt19937, normal, randu, uniform } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@deno/mod.js';
+import { arcsine, beta, betaprime, discreteUniform, exponential, gamma, invgamma, lognormal, minstd, mt19937, normal, randu, uniform } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@v0.0.0-deno/mod.js';
 ```
 
 #### ns
@@ -87,7 +87,7 @@ The namespace contains the following:
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@v0.0.0-deno/mod.js';
 
 console.log( objectKeys( ns ) );
 ```
