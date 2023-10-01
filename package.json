@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "@stdlib/random-array-arcsine": "^0.1.0",
-    "@stdlib/random-array-beta": "^0.0.1",
+    "@stdlib/random-array-beta": "^0.1.0",
     "@stdlib/random-array-betaprime": "^0.1.0",
     "@stdlib/random-array-cosine": "^0.1.0",
     "@stdlib/random-array-discrete-uniform": "^0.1.0",
