@@ -69,7 +69,7 @@
     "@stdlib/assert-is-number": "^0.1.1",
     "@stdlib/assert-is-plain-object": "^0.1.1",
     "@stdlib/assert-is-uint32array": "^0.1.1",
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.0",
     "@stdlib/console-log-each": "^0.1.0",
     "@stdlib/constants-int32-max": "^0.1.1",
     "@stdlib/constants-uint32-max": "^0.1.1",
