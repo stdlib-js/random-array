@@ -53,6 +53,7 @@
     "@stdlib/random-array-normal": "^0.1.0",
     "@stdlib/random-array-poisson": "github:stdlib-js/random-array-poisson#main",
     "@stdlib/random-array-randu": "^0.1.0",
+    "@stdlib/random-array-rayleigh": "github:stdlib-js/random-array-rayleigh#main",
     "@stdlib/random-array-uniform": "^0.1.0",
     "@stdlib/utils-define-read-only-property": "^0.1.1"
   },
@@ -107,6 +108,7 @@
     "@stdlib/random-base-normal": "^0.1.0",
     "@stdlib/random-base-poisson": "^0.1.0",
     "@stdlib/random-base-randu": "^0.1.0",
+    "@stdlib/random-base-rayleigh": "^0.1.0",
     "@stdlib/random-base-uniform": "^0.1.0",
     "@stdlib/strided-base-binary": "^0.1.0",
     "@stdlib/strided-base-nullary": "^0.1.0",
