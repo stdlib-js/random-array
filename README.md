@@ -35,20 +35,30 @@ limitations under the License.
 
 > Pseudorandom number generator (PRNG) array creation functions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/random-array
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { arcsine, bernoulli, beta, betaprime, chi, cosine, discreteUniform, exponential, gamma, geometric, invgamma, lognormal, minstd, minstdShuffle, mt19937, normal, poisson, randu, rayleigh, uniform } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@deno/mod.js';
+var ns = require( '@stdlib/random-array' );
 ```
 
 #### ns
@@ -100,8 +110,8 @@ The namespace contains the following:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@deno/mod.js';
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/random-array' );
 
 console.log( objectKeys( ns ) );
 ```
@@ -127,7 +137,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -189,37 +199,37 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/random/array/arcsine]: https://github.com/stdlib-js/random-array-arcsine/tree/deno
+[@stdlib/random/array/arcsine]: https://github.com/stdlib-js/random-array-arcsine
 
-[@stdlib/random/array/beta]: https://github.com/stdlib-js/random-array-beta/tree/deno
+[@stdlib/random/array/beta]: https://github.com/stdlib-js/random-array-beta
 
-[@stdlib/random/array/betaprime]: https://github.com/stdlib-js/random-array-betaprime/tree/deno
+[@stdlib/random/array/betaprime]: https://github.com/stdlib-js/random-array-betaprime
 
-[@stdlib/random/array/cosine]: https://github.com/stdlib-js/random-array-cosine/tree/deno
+[@stdlib/random/array/cosine]: https://github.com/stdlib-js/random-array-cosine
 
-[@stdlib/random/array/discrete-uniform]: https://github.com/stdlib-js/random-array-discrete-uniform/tree/deno
+[@stdlib/random/array/discrete-uniform]: https://github.com/stdlib-js/random-array-discrete-uniform
 
-[@stdlib/random/array/exponential]: https://github.com/stdlib-js/random-array-exponential/tree/deno
+[@stdlib/random/array/exponential]: https://github.com/stdlib-js/random-array-exponential
 
-[@stdlib/random/array/gamma]: https://github.com/stdlib-js/random-array-gamma/tree/deno
+[@stdlib/random/array/gamma]: https://github.com/stdlib-js/random-array-gamma
 
-[@stdlib/random/array/geometric]: https://github.com/stdlib-js/random-array-geometric/tree/deno
+[@stdlib/random/array/geometric]: https://github.com/stdlib-js/random-array-geometric
 
-[@stdlib/random/array/invgamma]: https://github.com/stdlib-js/random-array-invgamma/tree/deno
+[@stdlib/random/array/invgamma]: https://github.com/stdlib-js/random-array-invgamma
 
-[@stdlib/random/array/lognormal]: https://github.com/stdlib-js/random-array-lognormal/tree/deno
+[@stdlib/random/array/lognormal]: https://github.com/stdlib-js/random-array-lognormal
 
-[@stdlib/random/array/minstd-shuffle]: https://github.com/stdlib-js/random-array-minstd-shuffle/tree/deno
+[@stdlib/random/array/minstd-shuffle]: https://github.com/stdlib-js/random-array-minstd-shuffle
 
-[@stdlib/random/array/minstd]: https://github.com/stdlib-js/random-array-minstd/tree/deno
+[@stdlib/random/array/minstd]: https://github.com/stdlib-js/random-array-minstd
 
-[@stdlib/random/array/mt19937]: https://github.com/stdlib-js/random-array-mt19937/tree/deno
+[@stdlib/random/array/mt19937]: https://github.com/stdlib-js/random-array-mt19937
 
-[@stdlib/random/array/normal]: https://github.com/stdlib-js/random-array-normal/tree/deno
+[@stdlib/random/array/normal]: https://github.com/stdlib-js/random-array-normal
 
-[@stdlib/random/array/randu]: https://github.com/stdlib-js/random-array-randu/tree/deno
+[@stdlib/random/array/randu]: https://github.com/stdlib-js/random-array-randu
 
-[@stdlib/random/array/uniform]: https://github.com/stdlib-js/random-array-uniform/tree/deno
+[@stdlib/random/array/uniform]: https://github.com/stdlib-js/random-array-uniform
 
 <!-- </toc-links> -->
 
