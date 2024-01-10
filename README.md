@@ -35,30 +35,20 @@ limitations under the License.
 
 > Pseudorandom number generator (PRNG) array creation functions.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/random-array
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var ns = require( '@stdlib/random-array' );
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@esm/index.mjs';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { arcsine, bernoulli, beta, betaprime, cauchy, chi, chisquare, cosine, discreteUniform, erlang, exponential, f, gamma, geometric, gumbel, invgamma, laplace, levy, logistic, lognormal, minstd, minstdShuffle, mt19937, normal, pareto1, poisson, randu, rayleigh, t, uniform, weibull } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@esm/index.mjs';
 ```
 
 #### ns
@@ -115,11 +105,20 @@ The namespace contains the following:
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var ns = require( '@stdlib/random-array' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@esm/index.mjs';
 
 console.log( objectKeys( ns ) );
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -143,7 +142,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -205,49 +204,49 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/random/array/arcsine]: https://github.com/stdlib-js/random-array-arcsine
+[@stdlib/random/array/arcsine]: https://github.com/stdlib-js/random-array-arcsine/tree/esm
 
-[@stdlib/random/array/bernoulli]: https://github.com/stdlib-js/random-array-bernoulli
+[@stdlib/random/array/bernoulli]: https://github.com/stdlib-js/random-array-bernoulli/tree/esm
 
-[@stdlib/random/array/beta]: https://github.com/stdlib-js/random-array-beta
+[@stdlib/random/array/beta]: https://github.com/stdlib-js/random-array-beta/tree/esm
 
-[@stdlib/random/array/betaprime]: https://github.com/stdlib-js/random-array-betaprime
+[@stdlib/random/array/betaprime]: https://github.com/stdlib-js/random-array-betaprime/tree/esm
 
-[@stdlib/random/array/chi]: https://github.com/stdlib-js/random-array-chi
+[@stdlib/random/array/chi]: https://github.com/stdlib-js/random-array-chi/tree/esm
 
-[@stdlib/random/array/chisquare]: https://github.com/stdlib-js/random-array-chisquare
+[@stdlib/random/array/chisquare]: https://github.com/stdlib-js/random-array-chisquare/tree/esm
 
-[@stdlib/random/array/cosine]: https://github.com/stdlib-js/random-array-cosine
+[@stdlib/random/array/cosine]: https://github.com/stdlib-js/random-array-cosine/tree/esm
 
-[@stdlib/random/array/discrete-uniform]: https://github.com/stdlib-js/random-array-discrete-uniform
+[@stdlib/random/array/discrete-uniform]: https://github.com/stdlib-js/random-array-discrete-uniform/tree/esm
 
-[@stdlib/random/array/exponential]: https://github.com/stdlib-js/random-array-exponential
+[@stdlib/random/array/exponential]: https://github.com/stdlib-js/random-array-exponential/tree/esm
 
-[@stdlib/random/array/gamma]: https://github.com/stdlib-js/random-array-gamma
+[@stdlib/random/array/gamma]: https://github.com/stdlib-js/random-array-gamma/tree/esm
 
-[@stdlib/random/array/geometric]: https://github.com/stdlib-js/random-array-geometric
+[@stdlib/random/array/geometric]: https://github.com/stdlib-js/random-array-geometric/tree/esm
 
-[@stdlib/random/array/invgamma]: https://github.com/stdlib-js/random-array-invgamma
+[@stdlib/random/array/invgamma]: https://github.com/stdlib-js/random-array-invgamma/tree/esm
 
-[@stdlib/random/array/lognormal]: https://github.com/stdlib-js/random-array-lognormal
+[@stdlib/random/array/lognormal]: https://github.com/stdlib-js/random-array-lognormal/tree/esm
 
-[@stdlib/random/array/minstd-shuffle]: https://github.com/stdlib-js/random-array-minstd-shuffle
+[@stdlib/random/array/minstd-shuffle]: https://github.com/stdlib-js/random-array-minstd-shuffle/tree/esm
 
-[@stdlib/random/array/minstd]: https://github.com/stdlib-js/random-array-minstd
+[@stdlib/random/array/minstd]: https://github.com/stdlib-js/random-array-minstd/tree/esm
 
-[@stdlib/random/array/mt19937]: https://github.com/stdlib-js/random-array-mt19937
+[@stdlib/random/array/mt19937]: https://github.com/stdlib-js/random-array-mt19937/tree/esm
 
-[@stdlib/random/array/normal]: https://github.com/stdlib-js/random-array-normal
+[@stdlib/random/array/normal]: https://github.com/stdlib-js/random-array-normal/tree/esm
 
-[@stdlib/random/array/poisson]: https://github.com/stdlib-js/random-array-poisson
+[@stdlib/random/array/poisson]: https://github.com/stdlib-js/random-array-poisson/tree/esm
 
-[@stdlib/random/array/randu]: https://github.com/stdlib-js/random-array-randu
+[@stdlib/random/array/randu]: https://github.com/stdlib-js/random-array-randu/tree/esm
 
-[@stdlib/random/array/rayleigh]: https://github.com/stdlib-js/random-array-rayleigh
+[@stdlib/random/array/rayleigh]: https://github.com/stdlib-js/random-array-rayleigh/tree/esm
 
-[@stdlib/random/array/t]: https://github.com/stdlib-js/random-array-t
+[@stdlib/random/array/t]: https://github.com/stdlib-js/random-array-t/tree/esm
 
-[@stdlib/random/array/uniform]: https://github.com/stdlib-js/random-array-uniform
+[@stdlib/random/array/uniform]: https://github.com/stdlib-js/random-array-uniform/tree/esm
 
 <!-- </toc-links> -->
 
