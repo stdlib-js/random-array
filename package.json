@@ -53,6 +53,7 @@
     "@stdlib/random-array-gamma": "^0.1.0",
     "@stdlib/random-array-geometric": "^0.1.0",
     "@stdlib/random-array-gumbel": "^0.1.0",
+    "@stdlib/random-array-hypergeometric": "github:stdlib-js/random-array-hypergeometric#main",
     "@stdlib/random-array-invgamma": "^0.1.0",
     "@stdlib/random-array-kumaraswamy": "^0.1.0",
     "@stdlib/random-array-laplace": "^0.1.0",
