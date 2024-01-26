@@ -35,20 +35,32 @@ limitations under the License.
 
 > Pseudorandom number generator (PRNG) array creation functions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/random-array
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { arcsine, bernoulli, beta, betaprime, binomial, cauchy, chi, chisquare, cosine, discreteUniform, erlang, exponential, f, frechet, gamma, geometric, gumbel, hypergeometric, invgamma, kumaraswamy, laplace, levy, logistic, lognormal, minstd, minstdShuffle, mt19937, negativeBinomial, normal, pareto1, poisson, randu, rayleigh, t, triangular, uniform, weibull } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@esm/index.mjs';
+var ns = require( '@stdlib/random-array' );
 ```
 
 #### ns
@@ -79,9 +91,11 @@ The namespace contains the following:
 -   <span class="signature">[`erlang( len, k, lambda[, options] )`][@stdlib/random/array/erlang]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from an Erlang distribution.</span>
 -   <span class="signature">[`exponential( len, lambda[, options] )`][@stdlib/random/array/exponential]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from an exponential distribution.</span>
 -   <span class="signature">[`f( len, d1, d2[, options] )`][@stdlib/random/array/f]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from an F distribution.</span>
+-   <span class="signature">[`frechet( len, alpha, s, m[, options] )`][@stdlib/random/array/frechet]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from a Fréchet distribution.</span>
 -   <span class="signature">[`gamma( len, alpha, beta[, options] )`][@stdlib/random/array/gamma]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from a gamma distribution.</span>
 -   <span class="signature">[`geometric( len, p[, options] )`][@stdlib/random/array/geometric]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from a geometric distribution.</span>
 -   <span class="signature">[`gumbel( len, mu, beta[, options] )`][@stdlib/random/array/gumbel]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from a Gumbel distribution.</span>
+-   <span class="signature">[`hypergeometric( len, N, K, n[, options] )`][@stdlib/random/array/hypergeometric]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from a hypergeometric distribution.</span>
 -   <span class="signature">[`invgamma( len, alpha, beta[, options] )`][@stdlib/random/array/invgamma]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from a inverse gamma distribution.</span>
 -   <span class="signature">[`kumaraswamy( len, a, b[, options] )`][@stdlib/random/array/kumaraswamy]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from Kumaraswamy's double bounded distribution.</span>
 -   <span class="signature">[`laplace( len, mu, b[, options] )`][@stdlib/random/array/laplace]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from a Laplace (double exponential) distribution.</span>
@@ -98,6 +112,7 @@ The namespace contains the following:
 -   <span class="signature">[`randu( len[, options] )`][@stdlib/random/array/randu]</span><span class="delimiter">: </span><span class="description">create an array containing uniformly distributed pseudorandom numbers between `0` and `1`.</span>
 -   <span class="signature">[`rayleigh( len, sigma[, options] )`][@stdlib/random/array/rayleigh]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from a Rayleigh distribution.</span>
 -   <span class="signature">[`t( len, v[, options] )`][@stdlib/random/array/t]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from a Student's t-distribution.</span>
+-   <span class="signature">[`triangular( len, a, b, c[, options] )`][@stdlib/random/array/triangular]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from a triangular distribution.</span>
 -   <span class="signature">[`uniform( len, a, b[, options] )`][@stdlib/random/array/uniform]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from a continuous uniform distribution.</span>
 -   <span class="signature">[`weibull( len, k, lambda[, options] )`][@stdlib/random/array/weibull]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from a Weibull distribution.</span>
 
@@ -117,20 +132,11 @@ The namespace contains the following:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/random-array' );
 
 console.log( objectKeys( ns ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -154,7 +160,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -208,81 +214,90 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
 [deno-url]: https://github.com/stdlib-js/random-array/tree/deno
+[deno-readme]: https://github.com/stdlib-js/random-array/blob/deno/README.md
 [umd-url]: https://github.com/stdlib-js/random-array/tree/umd
+[umd-readme]: https://github.com/stdlib-js/random-array/blob/umd/README.md
 [esm-url]: https://github.com/stdlib-js/random-array/tree/esm
+[esm-readme]: https://github.com/stdlib-js/random-array/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/random-array/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/random-array/main/LICENSE
 
 <!-- <toc-links> -->
 
-[@stdlib/random/array/arcsine]: https://github.com/stdlib-js/random-array-arcsine/tree/esm
+[@stdlib/random/array/arcsine]: https://github.com/stdlib-js/random-array-arcsine
 
-[@stdlib/random/array/bernoulli]: https://github.com/stdlib-js/random-array-bernoulli/tree/esm
+[@stdlib/random/array/bernoulli]: https://github.com/stdlib-js/random-array-bernoulli
 
-[@stdlib/random/array/beta]: https://github.com/stdlib-js/random-array-beta/tree/esm
+[@stdlib/random/array/beta]: https://github.com/stdlib-js/random-array-beta
 
-[@stdlib/random/array/betaprime]: https://github.com/stdlib-js/random-array-betaprime/tree/esm
+[@stdlib/random/array/betaprime]: https://github.com/stdlib-js/random-array-betaprime
 
-[@stdlib/random/array/binomial]: https://github.com/stdlib-js/random-array-binomial/tree/esm
+[@stdlib/random/array/binomial]: https://github.com/stdlib-js/random-array-binomial
 
-[@stdlib/random/array/cauchy]: https://github.com/stdlib-js/random-array-cauchy/tree/esm
+[@stdlib/random/array/cauchy]: https://github.com/stdlib-js/random-array-cauchy
 
-[@stdlib/random/array/chi]: https://github.com/stdlib-js/random-array-chi/tree/esm
+[@stdlib/random/array/chi]: https://github.com/stdlib-js/random-array-chi
 
-[@stdlib/random/array/chisquare]: https://github.com/stdlib-js/random-array-chisquare/tree/esm
+[@stdlib/random/array/chisquare]: https://github.com/stdlib-js/random-array-chisquare
 
-[@stdlib/random/array/cosine]: https://github.com/stdlib-js/random-array-cosine/tree/esm
+[@stdlib/random/array/cosine]: https://github.com/stdlib-js/random-array-cosine
 
-[@stdlib/random/array/discrete-uniform]: https://github.com/stdlib-js/random-array-discrete-uniform/tree/esm
+[@stdlib/random/array/discrete-uniform]: https://github.com/stdlib-js/random-array-discrete-uniform
 
-[@stdlib/random/array/erlang]: https://github.com/stdlib-js/random-array-erlang/tree/esm
+[@stdlib/random/array/erlang]: https://github.com/stdlib-js/random-array-erlang
 
-[@stdlib/random/array/exponential]: https://github.com/stdlib-js/random-array-exponential/tree/esm
+[@stdlib/random/array/exponential]: https://github.com/stdlib-js/random-array-exponential
 
-[@stdlib/random/array/f]: https://github.com/stdlib-js/random-array-f/tree/esm
+[@stdlib/random/array/f]: https://github.com/stdlib-js/random-array-f
 
-[@stdlib/random/array/gamma]: https://github.com/stdlib-js/random-array-gamma/tree/esm
+[@stdlib/random/array/frechet]: https://github.com/stdlib-js/random-array-frechet
 
-[@stdlib/random/array/geometric]: https://github.com/stdlib-js/random-array-geometric/tree/esm
+[@stdlib/random/array/gamma]: https://github.com/stdlib-js/random-array-gamma
 
-[@stdlib/random/array/gumbel]: https://github.com/stdlib-js/random-array-gumbel/tree/esm
+[@stdlib/random/array/geometric]: https://github.com/stdlib-js/random-array-geometric
 
-[@stdlib/random/array/invgamma]: https://github.com/stdlib-js/random-array-invgamma/tree/esm
+[@stdlib/random/array/gumbel]: https://github.com/stdlib-js/random-array-gumbel
 
-[@stdlib/random/array/kumaraswamy]: https://github.com/stdlib-js/random-array-kumaraswamy/tree/esm
+[@stdlib/random/array/hypergeometric]: https://github.com/stdlib-js/random-array-hypergeometric
 
-[@stdlib/random/array/laplace]: https://github.com/stdlib-js/random-array-laplace/tree/esm
+[@stdlib/random/array/invgamma]: https://github.com/stdlib-js/random-array-invgamma
 
-[@stdlib/random/array/levy]: https://github.com/stdlib-js/random-array-levy/tree/esm
+[@stdlib/random/array/kumaraswamy]: https://github.com/stdlib-js/random-array-kumaraswamy
 
-[@stdlib/random/array/logistic]: https://github.com/stdlib-js/random-array-logistic/tree/esm
+[@stdlib/random/array/laplace]: https://github.com/stdlib-js/random-array-laplace
 
-[@stdlib/random/array/lognormal]: https://github.com/stdlib-js/random-array-lognormal/tree/esm
+[@stdlib/random/array/levy]: https://github.com/stdlib-js/random-array-levy
 
-[@stdlib/random/array/minstd-shuffle]: https://github.com/stdlib-js/random-array-minstd-shuffle/tree/esm
+[@stdlib/random/array/logistic]: https://github.com/stdlib-js/random-array-logistic
 
-[@stdlib/random/array/minstd]: https://github.com/stdlib-js/random-array-minstd/tree/esm
+[@stdlib/random/array/lognormal]: https://github.com/stdlib-js/random-array-lognormal
 
-[@stdlib/random/array/mt19937]: https://github.com/stdlib-js/random-array-mt19937/tree/esm
+[@stdlib/random/array/minstd-shuffle]: https://github.com/stdlib-js/random-array-minstd-shuffle
 
-[@stdlib/random/array/negative-binomial]: https://github.com/stdlib-js/random-array-negative-binomial/tree/esm
+[@stdlib/random/array/minstd]: https://github.com/stdlib-js/random-array-minstd
 
-[@stdlib/random/array/normal]: https://github.com/stdlib-js/random-array-normal/tree/esm
+[@stdlib/random/array/mt19937]: https://github.com/stdlib-js/random-array-mt19937
 
-[@stdlib/random/array/pareto-type1]: https://github.com/stdlib-js/random-array-pareto-type1/tree/esm
+[@stdlib/random/array/negative-binomial]: https://github.com/stdlib-js/random-array-negative-binomial
 
-[@stdlib/random/array/poisson]: https://github.com/stdlib-js/random-array-poisson/tree/esm
+[@stdlib/random/array/normal]: https://github.com/stdlib-js/random-array-normal
 
-[@stdlib/random/array/randu]: https://github.com/stdlib-js/random-array-randu/tree/esm
+[@stdlib/random/array/pareto-type1]: https://github.com/stdlib-js/random-array-pareto-type1
 
-[@stdlib/random/array/rayleigh]: https://github.com/stdlib-js/random-array-rayleigh/tree/esm
+[@stdlib/random/array/poisson]: https://github.com/stdlib-js/random-array-poisson
 
-[@stdlib/random/array/t]: https://github.com/stdlib-js/random-array-t/tree/esm
+[@stdlib/random/array/randu]: https://github.com/stdlib-js/random-array-randu
 
-[@stdlib/random/array/uniform]: https://github.com/stdlib-js/random-array-uniform/tree/esm
+[@stdlib/random/array/rayleigh]: https://github.com/stdlib-js/random-array-rayleigh
 
-[@stdlib/random/array/weibull]: https://github.com/stdlib-js/random-array-weibull/tree/esm
+[@stdlib/random/array/t]: https://github.com/stdlib-js/random-array-t
+
+[@stdlib/random/array/triangular]: https://github.com/stdlib-js/random-array-triangular
+
+[@stdlib/random/array/uniform]: https://github.com/stdlib-js/random-array-uniform
+
+[@stdlib/random/array/weibull]: https://github.com/stdlib-js/random-array-weibull
 
 <!-- </toc-links> -->
 
