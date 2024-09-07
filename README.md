@@ -35,32 +35,38 @@ limitations under the License.
 
 > Pseudorandom number generator (PRNG) array creation functions.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/random-array
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var ns = require( '@stdlib/random-array' );
+ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var ns = require( 'path/to/vendor/umd/random-array/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.ns;
+})();
+</script>
 ```
 
 #### ns
@@ -130,8 +136,13 @@ The namespace contains the following:
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var ns = require( '@stdlib/random-array' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 // Generate arrays with ten random numbers drawn from the respective distributions:
 var out = ns.arcsine( 10, 2.0, 5.0 );
@@ -168,6 +179,11 @@ random = ns.arcsine.factory( 2.0, 5.0, {
 });
 out = random( 10 );
 // returns <Float32Array>
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -256,79 +272,79 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/random/array/arcsine]: https://github.com/stdlib-js/random-array-arcsine
+[@stdlib/random/array/arcsine]: https://github.com/stdlib-js/random-array-arcsine/tree/umd
 
-[@stdlib/random/array/bernoulli]: https://github.com/stdlib-js/random-array-bernoulli
+[@stdlib/random/array/bernoulli]: https://github.com/stdlib-js/random-array-bernoulli/tree/umd
 
-[@stdlib/random/array/beta]: https://github.com/stdlib-js/random-array-beta
+[@stdlib/random/array/beta]: https://github.com/stdlib-js/random-array-beta/tree/umd
 
-[@stdlib/random/array/betaprime]: https://github.com/stdlib-js/random-array-betaprime
+[@stdlib/random/array/betaprime]: https://github.com/stdlib-js/random-array-betaprime/tree/umd
 
-[@stdlib/random/array/binomial]: https://github.com/stdlib-js/random-array-binomial
+[@stdlib/random/array/binomial]: https://github.com/stdlib-js/random-array-binomial/tree/umd
 
-[@stdlib/random/array/cauchy]: https://github.com/stdlib-js/random-array-cauchy
+[@stdlib/random/array/cauchy]: https://github.com/stdlib-js/random-array-cauchy/tree/umd
 
-[@stdlib/random/array/chi]: https://github.com/stdlib-js/random-array-chi
+[@stdlib/random/array/chi]: https://github.com/stdlib-js/random-array-chi/tree/umd
 
-[@stdlib/random/array/chisquare]: https://github.com/stdlib-js/random-array-chisquare
+[@stdlib/random/array/chisquare]: https://github.com/stdlib-js/random-array-chisquare/tree/umd
 
-[@stdlib/random/array/cosine]: https://github.com/stdlib-js/random-array-cosine
+[@stdlib/random/array/cosine]: https://github.com/stdlib-js/random-array-cosine/tree/umd
 
-[@stdlib/random/array/discrete-uniform]: https://github.com/stdlib-js/random-array-discrete-uniform
+[@stdlib/random/array/discrete-uniform]: https://github.com/stdlib-js/random-array-discrete-uniform/tree/umd
 
-[@stdlib/random/array/erlang]: https://github.com/stdlib-js/random-array-erlang
+[@stdlib/random/array/erlang]: https://github.com/stdlib-js/random-array-erlang/tree/umd
 
-[@stdlib/random/array/exponential]: https://github.com/stdlib-js/random-array-exponential
+[@stdlib/random/array/exponential]: https://github.com/stdlib-js/random-array-exponential/tree/umd
 
-[@stdlib/random/array/f]: https://github.com/stdlib-js/random-array-f
+[@stdlib/random/array/f]: https://github.com/stdlib-js/random-array-f/tree/umd
 
-[@stdlib/random/array/frechet]: https://github.com/stdlib-js/random-array-frechet
+[@stdlib/random/array/frechet]: https://github.com/stdlib-js/random-array-frechet/tree/umd
 
-[@stdlib/random/array/gamma]: https://github.com/stdlib-js/random-array-gamma
+[@stdlib/random/array/gamma]: https://github.com/stdlib-js/random-array-gamma/tree/umd
 
-[@stdlib/random/array/geometric]: https://github.com/stdlib-js/random-array-geometric
+[@stdlib/random/array/geometric]: https://github.com/stdlib-js/random-array-geometric/tree/umd
 
-[@stdlib/random/array/gumbel]: https://github.com/stdlib-js/random-array-gumbel
+[@stdlib/random/array/gumbel]: https://github.com/stdlib-js/random-array-gumbel/tree/umd
 
-[@stdlib/random/array/hypergeometric]: https://github.com/stdlib-js/random-array-hypergeometric
+[@stdlib/random/array/hypergeometric]: https://github.com/stdlib-js/random-array-hypergeometric/tree/umd
 
-[@stdlib/random/array/invgamma]: https://github.com/stdlib-js/random-array-invgamma
+[@stdlib/random/array/invgamma]: https://github.com/stdlib-js/random-array-invgamma/tree/umd
 
-[@stdlib/random/array/kumaraswamy]: https://github.com/stdlib-js/random-array-kumaraswamy
+[@stdlib/random/array/kumaraswamy]: https://github.com/stdlib-js/random-array-kumaraswamy/tree/umd
 
-[@stdlib/random/array/laplace]: https://github.com/stdlib-js/random-array-laplace
+[@stdlib/random/array/laplace]: https://github.com/stdlib-js/random-array-laplace/tree/umd
 
-[@stdlib/random/array/levy]: https://github.com/stdlib-js/random-array-levy
+[@stdlib/random/array/levy]: https://github.com/stdlib-js/random-array-levy/tree/umd
 
-[@stdlib/random/array/logistic]: https://github.com/stdlib-js/random-array-logistic
+[@stdlib/random/array/logistic]: https://github.com/stdlib-js/random-array-logistic/tree/umd
 
-[@stdlib/random/array/lognormal]: https://github.com/stdlib-js/random-array-lognormal
+[@stdlib/random/array/lognormal]: https://github.com/stdlib-js/random-array-lognormal/tree/umd
 
-[@stdlib/random/array/minstd-shuffle]: https://github.com/stdlib-js/random-array-minstd-shuffle
+[@stdlib/random/array/minstd-shuffle]: https://github.com/stdlib-js/random-array-minstd-shuffle/tree/umd
 
-[@stdlib/random/array/minstd]: https://github.com/stdlib-js/random-array-minstd
+[@stdlib/random/array/minstd]: https://github.com/stdlib-js/random-array-minstd/tree/umd
 
-[@stdlib/random/array/mt19937]: https://github.com/stdlib-js/random-array-mt19937
+[@stdlib/random/array/mt19937]: https://github.com/stdlib-js/random-array-mt19937/tree/umd
 
-[@stdlib/random/array/negative-binomial]: https://github.com/stdlib-js/random-array-negative-binomial
+[@stdlib/random/array/negative-binomial]: https://github.com/stdlib-js/random-array-negative-binomial/tree/umd
 
-[@stdlib/random/array/normal]: https://github.com/stdlib-js/random-array-normal
+[@stdlib/random/array/normal]: https://github.com/stdlib-js/random-array-normal/tree/umd
 
-[@stdlib/random/array/pareto-type1]: https://github.com/stdlib-js/random-array-pareto-type1
+[@stdlib/random/array/pareto-type1]: https://github.com/stdlib-js/random-array-pareto-type1/tree/umd
 
-[@stdlib/random/array/poisson]: https://github.com/stdlib-js/random-array-poisson
+[@stdlib/random/array/poisson]: https://github.com/stdlib-js/random-array-poisson/tree/umd
 
-[@stdlib/random/array/randu]: https://github.com/stdlib-js/random-array-randu
+[@stdlib/random/array/randu]: https://github.com/stdlib-js/random-array-randu/tree/umd
 
-[@stdlib/random/array/rayleigh]: https://github.com/stdlib-js/random-array-rayleigh
+[@stdlib/random/array/rayleigh]: https://github.com/stdlib-js/random-array-rayleigh/tree/umd
 
-[@stdlib/random/array/t]: https://github.com/stdlib-js/random-array-t
+[@stdlib/random/array/t]: https://github.com/stdlib-js/random-array-t/tree/umd
 
-[@stdlib/random/array/triangular]: https://github.com/stdlib-js/random-array-triangular
+[@stdlib/random/array/triangular]: https://github.com/stdlib-js/random-array-triangular/tree/umd
 
-[@stdlib/random/array/uniform]: https://github.com/stdlib-js/random-array-uniform
+[@stdlib/random/array/uniform]: https://github.com/stdlib-js/random-array-uniform/tree/umd
 
-[@stdlib/random/array/weibull]: https://github.com/stdlib-js/random-array-weibull
+[@stdlib/random/array/weibull]: https://github.com/stdlib-js/random-array-weibull/tree/umd
 
 <!-- </toc-links> -->
 
