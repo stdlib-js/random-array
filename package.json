@@ -70,6 +70,7 @@
     "@stdlib/random-array-randu": "^0.2.1",
     "@stdlib/random-array-rayleigh": "^0.2.1",
     "@stdlib/random-array-t": "^0.2.1",
+    "@stdlib/random-array-tools": "^0.2.2",
     "@stdlib/random-array-triangular": "^0.2.1",
     "@stdlib/random-array-uniform": "^0.2.1",
     "@stdlib/random-array-weibull": "^0.2.1",

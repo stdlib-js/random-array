@@ -4,22 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-30)
-
-<section class="packages">
-
-### Packages
-
-<section class="package" id="random-array-tools-unreleased">
-
-#### [@stdlib/random/array/tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/tools)
-
-<details>
+## Unreleased (2025-05-03)
 
 <section class="features">
 
-##### Features
+### Features
 
+-   [`fb571fb`](https://github.com/stdlib-js/stdlib/commit/fb571fb19db616c28378d0c658d6f68e8cb2a0e4) - add `tools` to namespace
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
 
 </section>
@@ -28,35 +19,13 @@
 
 <section class="bug-fixes">
 
-##### Bug Fixes
+### Bug Fixes
 
 -   [`83f2a61`](https://github.com/stdlib-js/stdlib/commit/83f2a613faa1661bdf1aebea1b4723044204f561) - remove unused imports
 
 </section>
 
 <!-- /.bug-fixes -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
-
-    -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -70,27 +39,15 @@
 
 <!-- /.breaking-changes -->
 
-<section class="contributors">
-
-### Contributors
-
-A total of 4 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Jenish Thapa
--   Philipp Burckhardt
--   Tirtadwipa Manunggal
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`fb571fb`](https://github.com/stdlib-js/stdlib/commit/fb571fb19db616c28378d0c658d6f68e8cb2a0e4) - **feat:** add `tools` to namespace _(by Athan Reines)_
+-   [`08c640b`](https://github.com/stdlib-js/stdlib/commit/08c640bed04914d60a99a6da842e08cb57a0e4b8) - **test:** fix type bug _(by Athan Reines)_
+-   [`479c50a`](https://github.com/stdlib-js/stdlib/commit/479c50acd9a8ddaf50fc670f9eb6fa85f8de0bfb) - **test:** fix type bug _(by Athan Reines)_
 -   [`b87254d`](https://github.com/stdlib-js/stdlib/commit/b87254d4535a3b90bf3d0068750ed6e9ca5dbc85) - **docs:** fix parameter descriptions in Weibull distribution packages _(by Philipp Burckhardt)_
 -   [`32deb11`](https://github.com/stdlib-js/stdlib/commit/32deb11c6a2453748d8db9554b6bb3fdb73a077f) - **docs:** update related packages sections [(#3976)](https://github.com/stdlib-js/stdlib/pull/3976) _(by stdlib-bot)_
 -   [`83f2a61`](https://github.com/stdlib-js/stdlib/commit/83f2a613faa1661bdf1aebea1b4723044204f561) - **fix:** remove unused imports _(by Athan Reines)_
@@ -108,6 +65,21 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 4 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Jenish Thapa
+-   Philipp Burckhardt
+-   Tirtadwipa Manunggal
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -116,47 +88,15 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 ## 0.2.1 (2024-02-25)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="random-array-tools-v0.2.1">
-
-#### [@stdlib/random/array/tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/tools)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`0adcae5`](https://github.com/stdlib-js/stdlib/commit/0adcae51386086e2ef5fb5d78402389cff776deb) - update namespace TypeScript declarations [(#1340)](https://github.com/stdlib-js/stdlib/pull/1340)
 
 </section>
 
 <!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0adcae5`](https://github.com/stdlib-js/stdlib/commit/0adcae51386086e2ef5fb5d78402389cff776deb): rename exported aliases
-
-    -   To migrate, users should consult the relevant namespace documentation and associated commits in order to determine which aliases have been renamed.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -169,18 +109,6 @@ A total of 4 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Athan Reines
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -197,6 +125,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -205,543 +145,75 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ## 0.2.0 (2024-02-15)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="random-array-v0.2.0">
-
-#### [@stdlib/random/array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
+-   [`60d37a0`](https://github.com/stdlib-js/stdlib/commit/60d37a0be8a1507fb561267b794b83c14e61f093) - add `random/array/tools` namespace package
 -   [`2693e3b`](https://github.com/stdlib-js/stdlib/commit/2693e3b3f0382542a51fc57d78e9ab59e2dc0681) - update namespace TypeScript declarations [(#1287)](https://github.com/stdlib-js/stdlib/pull/1287)
 -   [`91ec288`](https://github.com/stdlib-js/stdlib/commit/91ec288023c177b2345bd7b2e6b872596001e36a) - add `hypergeometric` to namespace
+-   [`253aef6`](https://github.com/stdlib-js/stdlib/commit/253aef6765642f5f28e8cc910541ff52ad99a625) - add `random/array/hypergeometric`
 -   [`4d50760`](https://github.com/stdlib-js/stdlib/commit/4d507606ee79a926453e10cdc0af08dc1ffebb02) - add `frechet` to namespace
+-   [`acba49b`](https://github.com/stdlib-js/stdlib/commit/acba49bd268f02b41b374b3276572ce2d5ce312c) - add `random/array/frechet`
 -   [`f5112de`](https://github.com/stdlib-js/stdlib/commit/f5112de6c2f787a27d80806bc62c9dc92c99ad6b) - add `triangular` to namespace
+-   [`e850b8c`](https://github.com/stdlib-js/stdlib/commit/e850b8c3db40b7720024fc3ff1e5a1a897ece3c6) - add `random/array/triangular`
+-   [`f0d8be9`](https://github.com/stdlib-js/stdlib/commit/f0d8be9b07692f164dfed420b829ed76fed71562) - add `random/array/tools/ternary-factory`
+-   [`292f38d`](https://github.com/stdlib-js/stdlib/commit/292f38dd36220ad0e6aa869e72a79ff6d3715b88) - add `random/array/tools/ternary`
 -   [`b53c12e`](https://github.com/stdlib-js/stdlib/commit/b53c12ee85d4999ea9fdfb063acd387de6182b36) - update namespace TypeScript declarations [(#1264)](https://github.com/stdlib-js/stdlib/pull/1264)
 -   [`7e702f6`](https://github.com/stdlib-js/stdlib/commit/7e702f6b3cf0324384c1c81deba54fd159086647) - add `negativeBinomial` to namespace
+-   [`d5cfbcc`](https://github.com/stdlib-js/stdlib/commit/d5cfbcc96834a584f77db28e47478243b304e625) - add `random/array/negative-binomial`
 -   [`4d448e8`](https://github.com/stdlib-js/stdlib/commit/4d448e82f386383e1d4479338c1abe200dccce8a) - add `binomial` to namespace
 -   [`009f80f`](https://github.com/stdlib-js/stdlib/commit/009f80fb224a3d0ff2000e41f83ed87c4303ceb1) - add `random/array/binomial`
 -   [`7d9d99e`](https://github.com/stdlib-js/stdlib/commit/7d9d99eeea905f82171ab9da8bf3e89133dd9473) - add `kumaraswamy` to namespace
+-   [`308bbb2`](https://github.com/stdlib-js/stdlib/commit/308bbb2c1bddd1dd7388c17210cf0c06483301ed) - add `random/array/kumaraswamy`
 -   [`d16c977`](https://github.com/stdlib-js/stdlib/commit/d16c977be12cd338b16b5ed37e431ba67b37a58e) - add `pareto1` to namespace
+-   [`8d53fdf`](https://github.com/stdlib-js/stdlib/commit/8d53fdf01b4a0e990eefe64de127177dec9cafcd) - add `random/array/pareto-type1`
 -   [`887a59b`](https://github.com/stdlib-js/stdlib/commit/887a59b48250609f0d6cc3e8e0ef7a34eb56f5fb) - add `weibull` to namespace
+-   [`953c172`](https://github.com/stdlib-js/stdlib/commit/953c1722b2e528e35e74d1ccf01d6baa470bfd45) - add `random/array/weibull`
 -   [`a206dd9`](https://github.com/stdlib-js/stdlib/commit/a206dd9253852b0d9331546fdd8256c237c92155) - add `logistic` to namespace
+-   [`58f2aa6`](https://github.com/stdlib-js/stdlib/commit/58f2aa6f9cae04842bccdc89e8ef9f8b0f26059c) - add `random/array/logistic`
 -   [`3e3acc5`](https://github.com/stdlib-js/stdlib/commit/3e3acc599be974a4137fcf12e9dba1ffdf0c23cc) - add `levy` to namespace
+-   [`a611e68`](https://github.com/stdlib-js/stdlib/commit/a611e68b61b381fa903ba5f0d6e5d044c871d7ed) - add `random/array/levy`
 -   [`8782a72`](https://github.com/stdlib-js/stdlib/commit/8782a724e046839ac92195abae10d2b117c414f2) - add `levy` to namespace
+-   [`348ae61`](https://github.com/stdlib-js/stdlib/commit/348ae6171ade6beff52bbd733858f0cbf7830fce) - add `random/array/laplace`
 -   [`ade8a79`](https://github.com/stdlib-js/stdlib/commit/ade8a79f121c39cf3e681bf0d813b3b75140dba0) - add `gumbel` to namespace
+-   [`36fcc2c`](https://github.com/stdlib-js/stdlib/commit/36fcc2cf31116531669ab158afb230df133dccb7) - add `random/array/gumbel`
 -   [`4b0fd4a`](https://github.com/stdlib-js/stdlib/commit/4b0fd4a6522a19b9ea16d5f65d23e6da332ec1b4) - add `f` to namespace
+-   [`908acbf`](https://github.com/stdlib-js/stdlib/commit/908acbfb3eac065957b4220d163f02a79cdbb9fb) - add `random/array/f`
 -   [`bc031ff`](https://github.com/stdlib-js/stdlib/commit/bc031ffeb9e8272b3f2300d196e6bb05a379842e) - add `random/array/erlang`
 -   [`f471aa8`](https://github.com/stdlib-js/stdlib/commit/f471aa8bd2612f065f76352992a50e5552c3b99c) - add `cauchy` to namespace
--   [`68413e0`](https://github.com/stdlib-js/stdlib/commit/68413e05376206b18c4ff8662a8568a189dad77e) - update namespace TypeScript declarations [(#1221)](https://github.com/stdlib-js/stdlib/pull/1221)
--   [`9c7c048`](https://github.com/stdlib-js/stdlib/commit/9c7c0482a77b67977ce71cc6060f53580e58e935) - add `t` to namespace
--   [`e26c656`](https://github.com/stdlib-js/stdlib/commit/e26c656f1f5b73dccf37c9e6c46d4b59c26829ad) - add `chisquare` to namespace
--   [`d73025b`](https://github.com/stdlib-js/stdlib/commit/d73025bdc7a4b26ef124113a65eea62ca8b3b749) - add `chi` to namespace
--   [`682a096`](https://github.com/stdlib-js/stdlib/commit/682a096690fec6cfb8a860472d7593bff7f038cd) - add `rayleigh` to namespace
--   [`de69dd0`](https://github.com/stdlib-js/stdlib/commit/de69dd0ec0094842392412048a057230db65adbd) - add `poisson` to namespace
--   [`f989e7d`](https://github.com/stdlib-js/stdlib/commit/f989e7d2f2f2bd7017bd58b254b454982c0ebd5a) - add `bernoulli` to namespace
--   [`b1e4cca`](https://github.com/stdlib-js/stdlib/commit/b1e4cca30147188064b2275a0242a0334befbcd1) - update namespace exports
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#870](https://github.com/stdlib-js/stdlib/issues/870)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-arcsine-v0.2.0">
-
-#### [@stdlib/random/array/arcsine](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/arcsine)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`2f452f3`](https://github.com/stdlib-js/stdlib/commit/2f452f3d925b8a5645a7871df83e38b837f73d27) - add an `assign` method and refactor implementation
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0) - rename type definitions for array and ndarray data types
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0): rename type definitions for array and ndarray data types
-
-    -   In order to migrate, users should update their implementations to
-        use the latest naming conventions. The affected type definitions
-        are aliases for individual data type strings, so their should be
-        no behavioral changes.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-bernoulli-v0.2.0">
-
-#### [@stdlib/random/array/bernoulli](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/bernoulli)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`6dc58d9`](https://github.com/stdlib-js/stdlib/commit/6dc58d9d193577f80ee2dbc018a000ff2b8eba39) - add `random/array/bernoulli`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-beta-v0.2.0">
-
-#### [@stdlib/random/array/beta](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/beta)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`99b4053`](https://github.com/stdlib-js/stdlib/commit/99b40539862bdea8adc8e75ea23c42130c5234bd) - add `assign` method and refactor implementation
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0) - rename type definitions for array and ndarray data types
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0): rename type definitions for array and ndarray data types
-
-    -   In order to migrate, users should update their implementations to
-        use the latest naming conventions. The affected type definitions
-        are aliases for individual data type strings, so their should be
-        no behavioral changes.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-betaprime-v0.2.0">
-
-#### [@stdlib/random/array/betaprime](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/betaprime)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`aaecfda`](https://github.com/stdlib-js/stdlib/commit/aaecfda9aaec14df020369fcfff24f3e09248fd7) - add `assign` method and refactor implementation
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0) - rename type definitions for array and ndarray data types
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0): rename type definitions for array and ndarray data types
-
-    -   In order to migrate, users should update their implementations to
-        use the latest naming conventions. The affected type definitions
-        are aliases for individual data type strings, so their should be
-        no behavioral changes.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-cauchy-v0.2.0">
-
-#### [@stdlib/random/array/cauchy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/cauchy)
-
-<details>
-
-<section class="features">
-
-##### Features
-
 -   [`fac73ce`](https://github.com/stdlib-js/stdlib/commit/fac73ce704dd5cef2e6f13f280a05b90e6e79785) - add `random/array/cauchy`
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#932](https://github.com/stdlib-js/stdlib/issues/932)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-chi-v0.2.0">
-
-#### [@stdlib/random/array/chi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/chi)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`8ffb082`](https://github.com/stdlib-js/stdlib/commit/8ffb08252555502cc7ce1bec3ed9ec6fdb151c0d) - add `random/array/chi`
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#882](https://github.com/stdlib-js/stdlib/issues/882)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-chisquare-v0.2.0">
-
-#### [@stdlib/random/array/chisquare](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/chisquare)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`611a594`](https://github.com/stdlib-js/stdlib/commit/611a5947270d6e4f8907135a2a8e9fce33380c3d) - add `random/array/chisquare`
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#883](https://github.com/stdlib-js/stdlib/issues/883)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-cosine-v0.2.0">
-
-#### [@stdlib/random/array/cosine](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/cosine)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`a081381`](https://github.com/stdlib-js/stdlib/commit/a08138142b3e360eb10e0df384aa9c106ccb03da) - add `assign` method and refactor implementation
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0) - rename type definitions for array and ndarray data types
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0): rename type definitions for array and ndarray data types
-
-    -   In order to migrate, users should update their implementations to
-        use the latest naming conventions. The affected type definitions
-        are aliases for individual data type strings, so their should be
-        no behavioral changes.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-discrete-uniform-v0.2.0">
-
-#### [@stdlib/random/array/discrete-uniform](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/discrete-uniform)
-
-<details>
-
-<section class="features">
-
-##### Features
-
 -   [`8195bcf`](https://github.com/stdlib-js/stdlib/commit/8195bcfd98a9b7ba92cbd62089a826327cdaafef) - add `assign` method and refactor implementation
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-erlang-v0.2.0">
-
-#### [@stdlib/random/array/erlang](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/erlang)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`bc031ff`](https://github.com/stdlib-js/stdlib/commit/bc031ffeb9e8272b3f2300d196e6bb05a379842e) - add `random/array/erlang`
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#870](https://github.com/stdlib-js/stdlib/issues/870)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-exponential-v0.2.0">
-
-#### [@stdlib/random/array/exponential](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/exponential)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0) - rename type definitions for array and ndarray data types
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0): rename type definitions for array and ndarray data types
-
-    -   In order to migrate, users should update their implementations to
-        use the latest naming conventions. The affected type definitions
-        are aliases for individual data type strings, so their should be
-        no behavioral changes.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-f-v0.2.0">
-
-#### [@stdlib/random/array/f](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/f)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`908acbf`](https://github.com/stdlib-js/stdlib/commit/908acbfb3eac065957b4220d163f02a79cdbb9fb) - add `random/array/f`
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#935](https://github.com/stdlib-js/stdlib/issues/935)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-frechet-v0.2.0">
-
-#### [@stdlib/random/array/frechet](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/frechet)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`acba49b`](https://github.com/stdlib-js/stdlib/commit/acba49bd268f02b41b374b3276572ce2d5ce312c) - add `random/array/frechet`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-gamma-v0.2.0">
-
-#### [@stdlib/random/array/gamma](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/gamma)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`74c1844`](https://github.com/stdlib-js/stdlib/commit/74c1844fb2d1c0abafdd7e53af4feafafa77f005) - add `assign` method and refactor implementation
+-   [`31a0fe5`](https://github.com/stdlib-js/stdlib/commit/31a0fe577c676461cf238f02e45c31191414548c) - add `assign` method and refactor implementation
+-   [`460cd4b`](https://github.com/stdlib-js/stdlib/commit/460cd4b900fccc651cf20420d5398923bf005014) - add `assign` method and refactor implementation
+-   [`1c9efcd`](https://github.com/stdlib-js/stdlib/commit/1c9efcd64cc926ae60a382b299e3c7b45fa1f614) - add `assign` method and refactor implementation
 -   [`d6b2dfd`](https://github.com/stdlib-js/stdlib/commit/d6b2dfdefa617027bfcd14310f2fddc9db49a6c7) - add `assign` method and refactor implementation
+-   [`a081381`](https://github.com/stdlib-js/stdlib/commit/a08138142b3e360eb10e0df384aa9c106ccb03da) - add `assign` method and refactor implementation
+-   [`aaecfda`](https://github.com/stdlib-js/stdlib/commit/aaecfda9aaec14df020369fcfff24f3e09248fd7) - add `assign` method and refactor implementation
+-   [`99b4053`](https://github.com/stdlib-js/stdlib/commit/99b40539862bdea8adc8e75ea23c42130c5234bd) - add `assign` method and refactor implementation
+-   [`68413e0`](https://github.com/stdlib-js/stdlib/commit/68413e05376206b18c4ff8662a8568a189dad77e) - update namespace TypeScript declarations [(#1221)](https://github.com/stdlib-js/stdlib/pull/1221)
+-   [`2f452f3`](https://github.com/stdlib-js/stdlib/commit/2f452f3d925b8a5645a7871df83e38b837f73d27) - add an `assign` method and refactor implementation
+-   [`7a98dfa`](https://github.com/stdlib-js/stdlib/commit/7a98dfa5293d960181b1bf4185aa65d9085e0f6f) - add `random/array/tools/binary-factory`
+-   [`84cf136`](https://github.com/stdlib-js/stdlib/commit/84cf13686d9559067a6c2d84ba10fb42a4b206d8) - add `random/array/tools/binary`
+-   [`9c7c048`](https://github.com/stdlib-js/stdlib/commit/9c7c0482a77b67977ce71cc6060f53580e58e935) - add `t` to namespace
+-   [`8aaf98e`](https://github.com/stdlib-js/stdlib/commit/8aaf98e0623912b99460f211f6b253c56e2ddf42) - add `random/array/t`
+-   [`e26c656`](https://github.com/stdlib-js/stdlib/commit/e26c656f1f5b73dccf37c9e6c46d4b59c26829ad) - add `chisquare` to namespace
+-   [`611a594`](https://github.com/stdlib-js/stdlib/commit/611a5947270d6e4f8907135a2a8e9fce33380c3d) - add `random/array/chisquare`
+-   [`d73025b`](https://github.com/stdlib-js/stdlib/commit/d73025bdc7a4b26ef124113a65eea62ca8b3b749) - add `chi` to namespace
+-   [`8ffb082`](https://github.com/stdlib-js/stdlib/commit/8ffb08252555502cc7ce1bec3ed9ec6fdb151c0d) - add `random/array/chi`
+-   [`682a096`](https://github.com/stdlib-js/stdlib/commit/682a096690fec6cfb8a860472d7593bff7f038cd) - add `rayleigh` to namespace
+-   [`2dc4be8`](https://github.com/stdlib-js/stdlib/commit/2dc4be898dd31d35c294c7bc8f35753313e64332) - add `random/array/rayleigh`
+-   [`de69dd0`](https://github.com/stdlib-js/stdlib/commit/de69dd0ec0094842392412048a057230db65adbd) - add `poisson` to namespace
+-   [`f4faaae`](https://github.com/stdlib-js/stdlib/commit/f4faaae5b81c94b556e0e96d92a293ee3c0e1a1a) - add `random/array/poisson`
+-   [`f989e7d`](https://github.com/stdlib-js/stdlib/commit/f989e7d2f2f2bd7017bd58b254b454982c0ebd5a) - add `bernoulli` to namespace
+-   [`6dc58d9`](https://github.com/stdlib-js/stdlib/commit/6dc58d9d193577f80ee2dbc018a000ff2b8eba39) - add `random/array/bernoulli`
+-   [`adad88f`](https://github.com/stdlib-js/stdlib/commit/adad88f973ec800c62905d830608aac1903c8774) - refactor to support top-level output array default and currying PRNG parameters
+-   [`4ea8f4b`](https://github.com/stdlib-js/stdlib/commit/4ea8f4ba6ed0fee219b0ecc6118b2ff20cd1f047) - add `random/array/tools/nullary`
+-   [`a30b64a`](https://github.com/stdlib-js/stdlib/commit/a30b64ab2c2591d0cf662a31807d537ad0f70b05) - add `random/array/tools/unary-factory`
+-   [`9f1aad3`](https://github.com/stdlib-js/stdlib/commit/9f1aad375e069268f01e105f4543852e88d1cc25) - add `random/array/tools/unary`
 -   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0) - rename type definitions for array and ndarray data types
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0): rename type definitions for array and ndarray data types
-
-    -   In order to migrate, users should update their implementations to
-        use the latest naming conventions. The affected type definitions
-        are aliases for individual data type strings, so their should be
-        no behavioral changes.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-geometric-v0.2.0">
-
-#### [@stdlib/random/array/geometric](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/geometric)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0) - rename type definitions for array and ndarray data types
+-   [`b1e4cca`](https://github.com/stdlib-js/stdlib/commit/b1e4cca30147188064b2275a0242a0334befbcd1) - update namespace exports
 
 </section>
 
@@ -749,885 +221,13 @@ This release closes the following issue:
 
 <section class="bug-fixes">
 
-##### Bug Fixes
+### Bug Fixes
 
 -   [`3baf817`](https://github.com/stdlib-js/stdlib/commit/3baf8170f59557bb8db9100713e5659d1dbb5757) - update keywords
 
 </section>
 
 <!-- /.bug-fixes -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0): rename type definitions for array and ndarray data types
-
-    -   In order to migrate, users should update their implementations to
-        use the latest naming conventions. The affected type definitions
-        are aliases for individual data type strings, so their should be
-        no behavioral changes.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-gumbel-v0.2.0">
-
-#### [@stdlib/random/array/gumbel](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/gumbel)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`36fcc2c`](https://github.com/stdlib-js/stdlib/commit/36fcc2cf31116531669ab158afb230df133dccb7) - add `random/array/gumbel`
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#937](https://github.com/stdlib-js/stdlib/issues/937)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-hypergeometric-v0.2.0">
-
-#### [@stdlib/random/array/hypergeometric](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/hypergeometric)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`253aef6`](https://github.com/stdlib-js/stdlib/commit/253aef6765642f5f28e8cc910541ff52ad99a625) - add `random/array/hypergeometric`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-invgamma-v0.2.0">
-
-#### [@stdlib/random/array/invgamma](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/invgamma)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`1c9efcd`](https://github.com/stdlib-js/stdlib/commit/1c9efcd64cc926ae60a382b299e3c7b45fa1f614) - add `assign` method and refactor implementation
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0) - rename type definitions for array and ndarray data types
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0): rename type definitions for array and ndarray data types
-
-    -   In order to migrate, users should update their implementations to
-        use the latest naming conventions. The affected type definitions
-        are aliases for individual data type strings, so their should be
-        no behavioral changes.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-kumaraswamy-v0.2.0">
-
-#### [@stdlib/random/array/kumaraswamy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/kumaraswamy)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`308bbb2`](https://github.com/stdlib-js/stdlib/commit/308bbb2c1bddd1dd7388c17210cf0c06483301ed) - add `random/array/kumaraswamy`
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#947](https://github.com/stdlib-js/stdlib/issues/947)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-laplace-v0.2.0">
-
-#### [@stdlib/random/array/laplace](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/laplace)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`348ae61`](https://github.com/stdlib-js/stdlib/commit/348ae6171ade6beff52bbd733858f0cbf7830fce) - add `random/array/laplace`
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#939](https://github.com/stdlib-js/stdlib/issues/939)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-levy-v0.2.0">
-
-#### [@stdlib/random/array/levy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/levy)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`a611e68`](https://github.com/stdlib-js/stdlib/commit/a611e68b61b381fa903ba5f0d6e5d044c871d7ed) - add `random/array/levy`
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#941](https://github.com/stdlib-js/stdlib/issues/941)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-logistic-v0.2.0">
-
-#### [@stdlib/random/array/logistic](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/logistic)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58f2aa6`](https://github.com/stdlib-js/stdlib/commit/58f2aa6f9cae04842bccdc89e8ef9f8b0f26059c) - add `random/array/logistic`
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#943](https://github.com/stdlib-js/stdlib/issues/943)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-lognormal-v0.2.0">
-
-#### [@stdlib/random/array/lognormal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/lognormal)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`460cd4b`](https://github.com/stdlib-js/stdlib/commit/460cd4b900fccc651cf20420d5398923bf005014) - add `assign` method and refactor implementation
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0) - rename type definitions for array and ndarray data types
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0): rename type definitions for array and ndarray data types
-
-    -   In order to migrate, users should update their implementations to
-        use the latest naming conventions. The affected type definitions
-        are aliases for individual data type strings, so their should be
-        no behavioral changes.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-minstd-v0.2.0">
-
-#### [@stdlib/random/array/minstd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/minstd)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0) - rename type definitions for array and ndarray data types
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0): rename type definitions for array and ndarray data types
-
-    -   In order to migrate, users should update their implementations to
-        use the latest naming conventions. The affected type definitions
-        are aliases for individual data type strings, so their should be
-        no behavioral changes.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-minstd-shuffle-v0.2.0">
-
-#### [@stdlib/random/array/minstd-shuffle](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/minstd-shuffle)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0) - rename type definitions for array and ndarray data types
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0): rename type definitions for array and ndarray data types
-
-    -   In order to migrate, users should update their implementations to
-        use the latest naming conventions. The affected type definitions
-        are aliases for individual data type strings, so their should be
-        no behavioral changes.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-mt19937-v0.2.0">
-
-#### [@stdlib/random/array/mt19937](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/mt19937)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0) - rename type definitions for array and ndarray data types
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0): rename type definitions for array and ndarray data types
-
-    -   In order to migrate, users should update their implementations to
-        use the latest naming conventions. The affected type definitions
-        are aliases for individual data type strings, so their should be
-        no behavioral changes.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-negative--v0.2.0">
-
-#### [@stdlib/random/array/negative-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/negative-)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`d5cfbcc`](https://github.com/stdlib-js/stdlib/commit/d5cfbcc96834a584f77db28e47478243b304e625) - add `random/array/negative-binomial`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-normal-v0.2.0">
-
-#### [@stdlib/random/array/normal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/normal)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`31a0fe5`](https://github.com/stdlib-js/stdlib/commit/31a0fe577c676461cf238f02e45c31191414548c) - add `assign` method and refactor implementation
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0) - rename type definitions for array and ndarray data types
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0): rename type definitions for array and ndarray data types
-
-    -   In order to migrate, users should update their implementations to
-        use the latest naming conventions. The affected type definitions
-        are aliases for individual data type strings, so their should be
-        no behavioral changes.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-pareto-type1-v0.2.0">
-
-#### [@stdlib/random/array/pareto-type1](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/pareto-type1)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`8d53fdf`](https://github.com/stdlib-js/stdlib/commit/8d53fdf01b4a0e990eefe64de127177dec9cafcd) - add `random/array/pareto-type1`
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#949](https://github.com/stdlib-js/stdlib/issues/949)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-poisson-v0.2.0">
-
-#### [@stdlib/random/array/poisson](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/poisson)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`f4faaae`](https://github.com/stdlib-js/stdlib/commit/f4faaae5b81c94b556e0e96d92a293ee3c0e1a1a) - add `random/array/poisson`
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#880](https://github.com/stdlib-js/stdlib/issues/880)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-randu-v0.2.0">
-
-#### [@stdlib/random/array/randu](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/randu)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0) - rename type definitions for array and ndarray data types
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0): rename type definitions for array and ndarray data types
-
-    -   In order to migrate, users should update their implementations to
-        use the latest naming conventions. The affected type definitions
-        are aliases for individual data type strings, so their should be
-        no behavioral changes.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-rayleigh-v0.2.0">
-
-#### [@stdlib/random/array/rayleigh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/rayleigh)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`2dc4be8`](https://github.com/stdlib-js/stdlib/commit/2dc4be898dd31d35c294c7bc8f35753313e64332) - add `random/array/rayleigh`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-t-v0.2.0">
-
-#### [@stdlib/random/array/t](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/t)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`8aaf98e`](https://github.com/stdlib-js/stdlib/commit/8aaf98e0623912b99460f211f6b253c56e2ddf42) - add `random/array/t`
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#884](https://github.com/stdlib-js/stdlib/issues/884)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-tools-v0.2.0">
-
-#### [@stdlib/random/array/tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/tools)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`60d37a0`](https://github.com/stdlib-js/stdlib/commit/60d37a0be8a1507fb561267b794b83c14e61f093) - add `random/array/tools` namespace package
--   [`7a98dfa`](https://github.com/stdlib-js/stdlib/commit/7a98dfa5293d960181b1bf4185aa65d9085e0f6f) - add `random/array/tools/binary-factory`
--   [`84cf136`](https://github.com/stdlib-js/stdlib/commit/84cf13686d9559067a6c2d84ba10fb42a4b206d8) - add `random/array/tools/binary`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-tools-nullary-v0.2.0">
-
-#### [@stdlib/random/array/tools/nullary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/tools/nullary)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`4ea8f4b`](https://github.com/stdlib-js/stdlib/commit/4ea8f4ba6ed0fee219b0ecc6118b2ff20cd1f047) - add `random/array/tools/nullary`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-tools-ternary-v0.2.0">
-
-#### [@stdlib/random/array/tools/ternary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/tools/ternary)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`292f38d`](https://github.com/stdlib-js/stdlib/commit/292f38dd36220ad0e6aa869e72a79ff6d3715b88) - add `random/array/tools/ternary`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-tools-ternary-factory-v0.2.0">
-
-#### [@stdlib/random/array/tools/ternary-factory](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/tools/ternary-factory)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`f0d8be9`](https://github.com/stdlib-js/stdlib/commit/f0d8be9b07692f164dfed420b829ed76fed71562) - add `random/array/tools/ternary-factory`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-tools-unary-v0.2.0">
-
-#### [@stdlib/random/array/tools/unary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/tools/unary)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`9f1aad3`](https://github.com/stdlib-js/stdlib/commit/9f1aad375e069268f01e105f4543852e88d1cc25) - add `random/array/tools/unary`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-tools-unary-factory-v0.2.0">
-
-#### [@stdlib/random/array/tools/unary-factory](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/tools/unary-factory)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`adad88f`](https://github.com/stdlib-js/stdlib/commit/adad88f973ec800c62905d830608aac1903c8774) - refactor to support top-level output array default and currying PRNG parameters
--   [`a30b64a`](https://github.com/stdlib-js/stdlib/commit/a30b64ab2c2591d0cf662a31807d537ad0f70b05) - add `random/array/tools/unary-factory`
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`adad88f`](https://github.com/stdlib-js/stdlib/commit/adad88f973ec800c62905d830608aac1903c8774): update signatures to supporting currying
-
-    -   To migrate, users should (1) specify a default output array data
-        type when invoking the main export, instead of the returned function,
-        and (2) specify a PRNG parameter when invoking the returned function
-        in order to curry PRNG parameters.
-        Specifying an output array data type can still be done via the
-        returned function; however, instead of a positional argument, one
-        needs to provide an options object.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-triangular-v0.2.0">
-
-#### [@stdlib/random/array/triangular](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/triangular)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`e850b8c`](https://github.com/stdlib-js/stdlib/commit/e850b8c3db40b7720024fc3ff1e5a1a897ece3c6) - add `random/array/triangular`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-uniform-v0.2.0">
-
-#### [@stdlib/random/array/uniform](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/uniform)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`74c1844`](https://github.com/stdlib-js/stdlib/commit/74c1844fb2d1c0abafdd7e53af4feafafa77f005) - add `assign` method and refactor implementation
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0) - rename type definitions for array and ndarray data types
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`e25b23b`](https://github.com/stdlib-js/stdlib/commit/e25b23b917ee6e387722db7192d22e4a70222da0): rename type definitions for array and ndarray data types
-
-    -   In order to migrate, users should update their implementations to
-        use the latest naming conventions. The affected type definitions
-        are aliases for individual data type strings, so their should be
-        no behavioral changes.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-weibull-v0.2.0">
-
-#### [@stdlib/random/array/weibull](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/weibull)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`953c172`](https://github.com/stdlib-js/stdlib/commit/953c1722b2e528e35e74d1ccf01d6baa470bfd45) - add `random/array/weibull`
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#945](https://github.com/stdlib-js/stdlib/issues/945)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -1665,19 +265,6 @@ A total of 14 issues were closed in this release:
 </section>
 
 <!-- /.issues -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -1839,6 +426,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -1847,654 +447,30 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ## 0.1.0 (2023-09-24)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="random-array-v0.1.0">
-
-#### [@stdlib/random/array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
+-   [`0b1ec25`](https://github.com/stdlib-js/stdlib/commit/0b1ec25a7543f9954826ae870f5e8979258360e7) - add package for creating an array of geometric pseudorandom numbers [(#971)](https://github.com/stdlib-js/stdlib/pull/971)
 -   [`e8775fc`](https://github.com/stdlib-js/stdlib/commit/e8775fcbe3617b9013bd1cea74d7f70aa2669ab4) - update namespace TypeScript declarations [(#951)](https://github.com/stdlib-js/stdlib/pull/951)
 -   [`d115362`](https://github.com/stdlib-js/stdlib/commit/d115362a80635761a217131b678abc7c21d32f49) - update namespace table of contents [(#933)](https://github.com/stdlib-js/stdlib/pull/933)
 -   [`907145e`](https://github.com/stdlib-js/stdlib/commit/907145e28f12acf8d027cc60ce87a5d1d61474e7) - add `cosine` to namespace
+-   [`e2f8adb`](https://github.com/stdlib-js/stdlib/commit/e2f8adb21e5a0513cd913684e83aba7d791cab63) - add interface for filling array with cosine random numbers
 -   [`c5cc648`](https://github.com/stdlib-js/stdlib/commit/c5cc648a6927beeb56525343efaa30c718fdc5b3) - add `minstdShuffle` to namespace
+-   [`2c2aa4e`](https://github.com/stdlib-js/stdlib/commit/2c2aa4e06184979f0f33133812b8a1eb8fe550d9) - add support for creating an array of pseudorandom numbers using an LCG whose output is shuffled
 -   [`90c53b0`](https://github.com/stdlib-js/stdlib/commit/90c53b0fb40495de722daba3d8d9ea4412fa51fe) - update namespace TypeScript declarations [(#923)](https://github.com/stdlib-js/stdlib/pull/923)
 -   [`06425a7`](https://github.com/stdlib-js/stdlib/commit/06425a750ca083836efe74864dfd0eacb41318ff) - add `invgamma` and `betaprime` to namespace
+-   [`266804a`](https://github.com/stdlib-js/stdlib/commit/266804a567b619f72e0012311f05557d4b810def) - add support for creating an array of pseudorandom numbers drawn from an inverse gamma distribution [(#915)](https://github.com/stdlib-js/stdlib/pull/915)
 -   [`9bc8935`](https://github.com/stdlib-js/stdlib/commit/9bc893578fd02ebda8067ab191efd74dcbbcdb7d) - add `betaprime` to namespace
+-   [`5cb61c4`](https://github.com/stdlib-js/stdlib/commit/5cb61c418a58fc1559474dd5e59c60a5d36bf06a) - add support for creating an array of pseudorandom numbers drawn from a beta prime distribution [(#917)](https://github.com/stdlib-js/stdlib/pull/917)
 -   [`1e82c3b`](https://github.com/stdlib-js/stdlib/commit/1e82c3b3f340f4c4b6634b57e02c47a271187c25) - add `gamma` to namespace
 -   [`00e8da0`](https://github.com/stdlib-js/stdlib/commit/00e8da0854d472abef0c22be7828084845f90343) - update namespace TypeScript declarations [(#919)](https://github.com/stdlib-js/stdlib/pull/919)
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-arcsine-v0.1.0">
-
-#### [@stdlib/random/array/arcsine](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/arcsine)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-beta-v0.1.0">
-
-#### [@stdlib/random/array/beta](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/beta)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-betaprime-v0.1.0">
-
-#### [@stdlib/random/array/betaprime](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/betaprime)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
--   [`5cb61c4`](https://github.com/stdlib-js/stdlib/commit/5cb61c418a58fc1559474dd5e59c60a5d36bf06a) - add support for creating an array of pseudorandom numbers drawn from a beta prime distribution [(#917)](https://github.com/stdlib-js/stdlib/pull/917)
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#868](https://github.com/stdlib-js/stdlib/issues/868)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-cosine-v0.1.0">
-
-#### [@stdlib/random/array/cosine](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/cosine)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
--   [`e2f8adb`](https://github.com/stdlib-js/stdlib/commit/e2f8adb21e5a0513cd913684e83aba7d791cab63) - add interface for filling array with cosine random numbers
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-discrete-uniform-v0.1.0">
-
-#### [@stdlib/random/array/discrete-uniform](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/discrete-uniform)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-exponential-v0.1.0">
-
-#### [@stdlib/random/array/exponential](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/exponential)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-gamma-v0.1.0">
-
-#### [@stdlib/random/array/gamma](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/gamma)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
 -   [`720e367`](https://github.com/stdlib-js/stdlib/commit/720e367ed057bf75c6ae4fce8b62f606b99a94c0) - add support for creating an array of pseudorandom numbers drawn from a gamma distribution [(#914)](https://github.com/stdlib-js/stdlib/pull/914)
 
 </section>
 
 <!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#871](https://github.com/stdlib-js/stdlib/issues/871)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-geometric-v0.1.0">
-
-#### [@stdlib/random/array/geometric](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/geometric)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
--   [`0b1ec25`](https://github.com/stdlib-js/stdlib/commit/0b1ec25a7543f9954826ae870f5e8979258360e7) - add package for creating an array of geometric pseudorandom numbers [(#971)](https://github.com/stdlib-js/stdlib/pull/971)
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#879](https://github.com/stdlib-js/stdlib/issues/879)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-invgamma-v0.1.0">
-
-#### [@stdlib/random/array/invgamma](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/invgamma)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
--   [`266804a`](https://github.com/stdlib-js/stdlib/commit/266804a567b619f72e0012311f05557d4b810def) - add support for creating an array of pseudorandom numbers drawn from an inverse gamma distribution [(#915)](https://github.com/stdlib-js/stdlib/pull/915)
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#872](https://github.com/stdlib-js/stdlib/issues/872)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-lognormal-v0.1.0">
-
-#### [@stdlib/random/array/lognormal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/lognormal)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-minstd-v0.1.0">
-
-#### [@stdlib/random/array/minstd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/minstd)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-minstd-shuffle-v0.1.0">
-
-#### [@stdlib/random/array/minstd-shuffle](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/minstd-shuffle)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
--   [`2c2aa4e`](https://github.com/stdlib-js/stdlib/commit/2c2aa4e06184979f0f33133812b8a1eb8fe550d9) - add support for creating an array of pseudorandom numbers using an LCG whose output is shuffled
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-mt19937-v0.1.0">
-
-#### [@stdlib/random/array/mt19937](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/mt19937)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-normal-v0.1.0">
-
-#### [@stdlib/random/array/normal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/normal)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-randu-v0.1.0">
-
-#### [@stdlib/random/array/randu](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/randu)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-array-uniform-v0.1.0">
-
-#### [@stdlib/random/array/uniform](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/array/uniform)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -2519,20 +495,6 @@ A total of 4 issues were closed in this release:
 </section>
 
 <!-- /.issues -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 3 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
--   Yernar Yergaziyev
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -2572,6 +534,20 @@ A total of 3 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 3 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+-   Yernar Yergaziyev
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
