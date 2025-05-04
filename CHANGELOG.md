@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-03)
+## Unreleased (2025-05-04)
 
 <section class="features">
 
@@ -45,6 +45,7 @@
 
 <details>
 
+-   [`7423599`](https://github.com/stdlib-js/stdlib/commit/74235999433f4fa850bc842988b53e3f3367d585) - **docs:** update namespace table of contents [(#6917)](https://github.com/stdlib-js/stdlib/pull/6917) _(by stdlib-bot)_
 -   [`fb571fb`](https://github.com/stdlib-js/stdlib/commit/fb571fb19db616c28378d0c658d6f68e8cb2a0e4) - **feat:** add `tools` to namespace _(by Athan Reines)_
 -   [`08c640b`](https://github.com/stdlib-js/stdlib/commit/08c640bed04914d60a99a6da842e08cb57a0e4b8) - **test:** fix type bug _(by Athan Reines)_
 -   [`479c50a`](https://github.com/stdlib-js/stdlib/commit/479c50acd9a8ddaf50fc670f9eb6fa85f8de0bfb) - **test:** fix type bug _(by Athan Reines)_
