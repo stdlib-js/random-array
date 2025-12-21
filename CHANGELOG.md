@@ -47,6 +47,8 @@
 
 <details>
 
+-   [`f8d9231`](https://github.com/stdlib-js/stdlib/commit/f8d9231f7d32d493676a62d4cc019a1f9113e62e) - **build:** fix parameter description wrapping _(by Athan Reines)_
+-   [`44f6dfe`](https://github.com/stdlib-js/stdlib/commit/44f6dfe47b12e320db978ec6266aa46b30f7ad4b) - **style:** resolve lint failures _(by Athan Reines)_
 -   [`e158863`](https://github.com/stdlib-js/stdlib/commit/e1588639b9d50b894ba30d60e8b468fcde057b0b) - **docs:** fix comments _(by Athan Reines)_
 -   [`13c7491`](https://github.com/stdlib-js/stdlib/commit/13c7491896b549bc619ed3d9cd0f48a135bd3035) - **chore:** move scaffold to `random/array` namespace _(by Athan Reines)_
 -   [`4e5528a`](https://github.com/stdlib-js/stdlib/commit/4e5528acdadde09fe516a95a4884d8f5d6ad249f) - **chore:** move scaffold to `random/array` namespace _(by Athan Reines)_
