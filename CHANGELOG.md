@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-30)
+## Unreleased (2025-12-21)
 
 <section class="features">
 
 ### Features
 
+-   [`45bea12`](https://github.com/stdlib-js/stdlib/commit/45bea1241929b3311ee455d626ae771f6b19a85f) - update `random/array/tools` TypeScript declarations
+-   [`77c44b5`](https://github.com/stdlib-js/stdlib/commit/77c44b59452f59f6a28f502475f0f48f3b4ce9c3) - update `random/array` TypeScript declarations
 -   [`fb571fb`](https://github.com/stdlib-js/stdlib/commit/fb571fb19db616c28378d0c658d6f68e8cb2a0e4) - add `tools` to namespace
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
 
@@ -45,6 +47,19 @@
 
 <details>
 
+-   [`e158863`](https://github.com/stdlib-js/stdlib/commit/e1588639b9d50b894ba30d60e8b468fcde057b0b) - **docs:** fix comments _(by Athan Reines)_
+-   [`13c7491`](https://github.com/stdlib-js/stdlib/commit/13c7491896b549bc619ed3d9cd0f48a135bd3035) - **chore:** move scaffold to `random/array` namespace _(by Athan Reines)_
+-   [`4e5528a`](https://github.com/stdlib-js/stdlib/commit/4e5528acdadde09fe516a95a4884d8f5d6ad249f) - **chore:** move scaffold to `random/array` namespace _(by Athan Reines)_
+-   [`8addcf7`](https://github.com/stdlib-js/stdlib/commit/8addcf7841e7a1909fe3a315b496479fd44d4d18) - **chore:** move scaffold to `random/array` namespace _(by Athan Reines)_
+-   [`226d13a`](https://github.com/stdlib-js/stdlib/commit/226d13a6a47597b12d0fa70d6cfb0b333f540a68) - **docs:** set doctest alias and update example code _(by Philipp Burckhardt)_
+-   [`3f48135`](https://github.com/stdlib-js/stdlib/commit/3f48135698dc83762b7b304b748a783eb5813fed) - **docs:** clean-up code in TSDoc examples _(by Philipp Burckhardt)_
+-   [`45bea12`](https://github.com/stdlib-js/stdlib/commit/45bea1241929b3311ee455d626ae771f6b19a85f) - **feat:** update `random/array/tools` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`77c44b5`](https://github.com/stdlib-js/stdlib/commit/77c44b59452f59f6a28f502475f0f48f3b4ce9c3) - **feat:** update `random/array` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`5c7040c`](https://github.com/stdlib-js/stdlib/commit/5c7040cb0423e40a639933fd4b156e5c63683136) - **docs:** fix method name in example code _(by Philipp Burckhardt)_
+-   [`0d7c7b1`](https://github.com/stdlib-js/stdlib/commit/0d7c7b148724969c79eef40805f7df7c5a61b32c) - **docs:** pass in proper argument in TSDoc example code for `random/array` packages _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`54da286`](https://github.com/stdlib-js/stdlib/commit/54da28610f5ee6b2aa181addb1775d32f79043ee) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`504a3f1`](https://github.com/stdlib-js/stdlib/commit/504a3f1d1db20b670b48efd1c292d7efbb433b58) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
 -   [`7423599`](https://github.com/stdlib-js/stdlib/commit/74235999433f4fa850bc842988b53e3f3367d585) - **docs:** update namespace table of contents [(#6917)](https://github.com/stdlib-js/stdlib/pull/6917) _(by stdlib-bot)_
 -   [`fb571fb`](https://github.com/stdlib-js/stdlib/commit/fb571fb19db616c28378d0c658d6f68e8cb2a0e4) - **feat:** add `tools` to namespace _(by Athan Reines)_
 -   [`08c640b`](https://github.com/stdlib-js/stdlib/commit/08c640bed04914d60a99a6da842e08cb57a0e4b8) - **test:** fix type bug _(by Athan Reines)_
