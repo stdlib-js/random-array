@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-21)
+## Unreleased (2025-12-28)
 
 <section class="features">
 
@@ -47,6 +47,10 @@
 
 <details>
 
+-   [`2ae99ef`](https://github.com/stdlib-js/stdlib/commit/2ae99ef57a08b712bbe90341063df30854950e43) - **docs:** fix usage comments in scaffold scripts and indentation _(by Philipp Burckhardt)_
+-   [`227e178`](https://github.com/stdlib-js/stdlib/commit/227e178f31773ac54be3bf6d1bec60558d4840af) - **build:** fix descriptions _(by Athan Reines)_
+-   [`67e1d65`](https://github.com/stdlib-js/stdlib/commit/67e1d655fa1434e8254da754fb5937413d962843) - **build:** fix descriptions _(by Athan Reines)_
+-   [`52c06ee`](https://github.com/stdlib-js/stdlib/commit/52c06ee983435127aa03eb89a0478a490e090385) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`7f98596`](https://github.com/stdlib-js/stdlib/commit/7f985969b961754eb553d6a8b66b01623442fd93) - **chore:** add directory _(by Athan Reines)_
 -   [`f8d9231`](https://github.com/stdlib-js/stdlib/commit/f8d9231f7d32d493676a62d4cc019a1f9113e62e) - **build:** fix parameter description wrapping _(by Athan Reines)_
 -   [`44f6dfe`](https://github.com/stdlib-js/stdlib/commit/44f6dfe47b12e320db978ec6266aa46b30f7ad4b) - **style:** resolve lint failures _(by Athan Reines)_
