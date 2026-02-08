@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/random-array/tags). For example,
+
+```javascript
 import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@v0.3.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { arcsine, bernoulli, beta, betaprime, binomial, cauchy, chi, chisquare, cosine, discreteUniform, erlang, exponential, f, frechet, gamma, geometric, gumbel, hypergeometric, invgamma, kumaraswamy, laplace, levy, logistic, lognormal, minstd, minstdShuffle, mt19937, negativeBinomial, normal, pareto1, poisson, randu, rayleigh, t, tools, triangular, uniform, weibull } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@v0.3.1-esm/index.mjs';
+import { arcsine, bernoulli, beta, betaprime, binomial, cauchy, chi, chisquare, cosine, discreteUniform, erlang, exponential, f, frechet, gamma, geometric, gumbel, hypergeometric, invgamma, kumaraswamy, laplace, levy, logistic, lognormal, minstd, minstdShuffle, mt19937, negativeBinomial, normal, pareto1, poisson, randu, rayleigh, t, tools, triangular, uniform, weibull } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@esm/index.mjs';
 ```
 
 #### ns
@@ -125,7 +130,7 @@ The namespace contains the following:
 <body>
 <script type="module">
 
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@v0.3.1-esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@esm/index.mjs';
 
 // Generate arrays with ten random numbers drawn from the respective distributions:
 var out = ns.arcsine( 10, 2.0, 5.0 );
