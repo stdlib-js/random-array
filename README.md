@@ -35,32 +35,20 @@ limitations under the License.
 
 > Pseudorandom number generator (PRNG) array creation functions.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/random-array
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var ns = require( '@stdlib/random-array' );
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@deno/mod.js';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { arcsine, bernoulli, beta, betaprime, binomial, cauchy, chi, chisquare, cosine, discreteUniform, erlang, exponential, f, frechet, gamma, geometric, gumbel, hypergeometric, invgamma, kumaraswamy, laplace, levy, logistic, lognormal, minstd, minstdShuffle, mt19937, negativeBinomial, normal, pareto1, poisson, randu, rayleigh, t, tools, triangular, uniform, weibull } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@deno/mod.js';
 ```
 
 #### ns
@@ -132,7 +120,7 @@ The namespace contains the following:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var ns = require( '@stdlib/random-array' );
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array@deno/mod.js';
 
 // Generate arrays with ten random numbers drawn from the respective distributions:
 var out = ns.arcsine( 10, 2.0, 5.0 );
@@ -192,7 +180,7 @@ out = random( 10 );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -257,81 +245,81 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/random/array/arcsine]: https://github.com/stdlib-js/random-array-arcsine
+[@stdlib/random/array/arcsine]: https://github.com/stdlib-js/random-array-arcsine/tree/deno
 
-[@stdlib/random/array/bernoulli]: https://github.com/stdlib-js/random-array-bernoulli
+[@stdlib/random/array/bernoulli]: https://github.com/stdlib-js/random-array-bernoulli/tree/deno
 
-[@stdlib/random/array/beta]: https://github.com/stdlib-js/random-array-beta
+[@stdlib/random/array/beta]: https://github.com/stdlib-js/random-array-beta/tree/deno
 
-[@stdlib/random/array/betaprime]: https://github.com/stdlib-js/random-array-betaprime
+[@stdlib/random/array/betaprime]: https://github.com/stdlib-js/random-array-betaprime/tree/deno
 
-[@stdlib/random/array/binomial]: https://github.com/stdlib-js/random-array-binomial
+[@stdlib/random/array/binomial]: https://github.com/stdlib-js/random-array-binomial/tree/deno
 
-[@stdlib/random/array/cauchy]: https://github.com/stdlib-js/random-array-cauchy
+[@stdlib/random/array/cauchy]: https://github.com/stdlib-js/random-array-cauchy/tree/deno
 
-[@stdlib/random/array/chi]: https://github.com/stdlib-js/random-array-chi
+[@stdlib/random/array/chi]: https://github.com/stdlib-js/random-array-chi/tree/deno
 
-[@stdlib/random/array/chisquare]: https://github.com/stdlib-js/random-array-chisquare
+[@stdlib/random/array/chisquare]: https://github.com/stdlib-js/random-array-chisquare/tree/deno
 
-[@stdlib/random/array/cosine]: https://github.com/stdlib-js/random-array-cosine
+[@stdlib/random/array/cosine]: https://github.com/stdlib-js/random-array-cosine/tree/deno
 
-[@stdlib/random/array/discrete-uniform]: https://github.com/stdlib-js/random-array-discrete-uniform
+[@stdlib/random/array/discrete-uniform]: https://github.com/stdlib-js/random-array-discrete-uniform/tree/deno
 
-[@stdlib/random/array/erlang]: https://github.com/stdlib-js/random-array-erlang
+[@stdlib/random/array/erlang]: https://github.com/stdlib-js/random-array-erlang/tree/deno
 
-[@stdlib/random/array/exponential]: https://github.com/stdlib-js/random-array-exponential
+[@stdlib/random/array/exponential]: https://github.com/stdlib-js/random-array-exponential/tree/deno
 
-[@stdlib/random/array/f]: https://github.com/stdlib-js/random-array-f
+[@stdlib/random/array/f]: https://github.com/stdlib-js/random-array-f/tree/deno
 
-[@stdlib/random/array/frechet]: https://github.com/stdlib-js/random-array-frechet
+[@stdlib/random/array/frechet]: https://github.com/stdlib-js/random-array-frechet/tree/deno
 
-[@stdlib/random/array/gamma]: https://github.com/stdlib-js/random-array-gamma
+[@stdlib/random/array/gamma]: https://github.com/stdlib-js/random-array-gamma/tree/deno
 
-[@stdlib/random/array/geometric]: https://github.com/stdlib-js/random-array-geometric
+[@stdlib/random/array/geometric]: https://github.com/stdlib-js/random-array-geometric/tree/deno
 
-[@stdlib/random/array/gumbel]: https://github.com/stdlib-js/random-array-gumbel
+[@stdlib/random/array/gumbel]: https://github.com/stdlib-js/random-array-gumbel/tree/deno
 
-[@stdlib/random/array/hypergeometric]: https://github.com/stdlib-js/random-array-hypergeometric
+[@stdlib/random/array/hypergeometric]: https://github.com/stdlib-js/random-array-hypergeometric/tree/deno
 
-[@stdlib/random/array/invgamma]: https://github.com/stdlib-js/random-array-invgamma
+[@stdlib/random/array/invgamma]: https://github.com/stdlib-js/random-array-invgamma/tree/deno
 
-[@stdlib/random/array/kumaraswamy]: https://github.com/stdlib-js/random-array-kumaraswamy
+[@stdlib/random/array/kumaraswamy]: https://github.com/stdlib-js/random-array-kumaraswamy/tree/deno
 
-[@stdlib/random/array/laplace]: https://github.com/stdlib-js/random-array-laplace
+[@stdlib/random/array/laplace]: https://github.com/stdlib-js/random-array-laplace/tree/deno
 
-[@stdlib/random/array/levy]: https://github.com/stdlib-js/random-array-levy
+[@stdlib/random/array/levy]: https://github.com/stdlib-js/random-array-levy/tree/deno
 
-[@stdlib/random/array/logistic]: https://github.com/stdlib-js/random-array-logistic
+[@stdlib/random/array/logistic]: https://github.com/stdlib-js/random-array-logistic/tree/deno
 
-[@stdlib/random/array/lognormal]: https://github.com/stdlib-js/random-array-lognormal
+[@stdlib/random/array/lognormal]: https://github.com/stdlib-js/random-array-lognormal/tree/deno
 
-[@stdlib/random/array/minstd-shuffle]: https://github.com/stdlib-js/random-array-minstd-shuffle
+[@stdlib/random/array/minstd-shuffle]: https://github.com/stdlib-js/random-array-minstd-shuffle/tree/deno
 
-[@stdlib/random/array/minstd]: https://github.com/stdlib-js/random-array-minstd
+[@stdlib/random/array/minstd]: https://github.com/stdlib-js/random-array-minstd/tree/deno
 
-[@stdlib/random/array/mt19937]: https://github.com/stdlib-js/random-array-mt19937
+[@stdlib/random/array/mt19937]: https://github.com/stdlib-js/random-array-mt19937/tree/deno
 
-[@stdlib/random/array/negative-binomial]: https://github.com/stdlib-js/random-array-negative-binomial
+[@stdlib/random/array/negative-binomial]: https://github.com/stdlib-js/random-array-negative-binomial/tree/deno
 
-[@stdlib/random/array/normal]: https://github.com/stdlib-js/random-array-normal
+[@stdlib/random/array/normal]: https://github.com/stdlib-js/random-array-normal/tree/deno
 
-[@stdlib/random/array/pareto-type1]: https://github.com/stdlib-js/random-array-pareto-type1
+[@stdlib/random/array/pareto-type1]: https://github.com/stdlib-js/random-array-pareto-type1/tree/deno
 
-[@stdlib/random/array/poisson]: https://github.com/stdlib-js/random-array-poisson
+[@stdlib/random/array/poisson]: https://github.com/stdlib-js/random-array-poisson/tree/deno
 
-[@stdlib/random/array/randu]: https://github.com/stdlib-js/random-array-randu
+[@stdlib/random/array/randu]: https://github.com/stdlib-js/random-array-randu/tree/deno
 
-[@stdlib/random/array/rayleigh]: https://github.com/stdlib-js/random-array-rayleigh
+[@stdlib/random/array/rayleigh]: https://github.com/stdlib-js/random-array-rayleigh/tree/deno
 
-[@stdlib/random/array/t]: https://github.com/stdlib-js/random-array-t
+[@stdlib/random/array/t]: https://github.com/stdlib-js/random-array-t/tree/deno
 
-[@stdlib/random/array/tools]: https://github.com/stdlib-js/random-array-tools
+[@stdlib/random/array/tools]: https://github.com/stdlib-js/random-array-tools/tree/deno
 
-[@stdlib/random/array/triangular]: https://github.com/stdlib-js/random-array-triangular
+[@stdlib/random/array/triangular]: https://github.com/stdlib-js/random-array-triangular/tree/deno
 
-[@stdlib/random/array/uniform]: https://github.com/stdlib-js/random-array-uniform
+[@stdlib/random/array/uniform]: https://github.com/stdlib-js/random-array-uniform/tree/deno
 
-[@stdlib/random/array/weibull]: https://github.com/stdlib-js/random-array-weibull
+[@stdlib/random/array/weibull]: https://github.com/stdlib-js/random-array-weibull/tree/deno
 
 <!-- </toc-links> -->
 
