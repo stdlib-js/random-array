@@ -2,6 +2,49 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-05-16)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`622d150`](https://github.com/stdlib-js/stdlib/commit/622d15033aa18a95fedfe4bfa1f66ac5799ef3f2) - **docs:** update related packages sections [(#12139)](https://github.com/stdlib-js/stdlib/pull/12139) _(by stdlib-bot)_
+-   [`795cdc0`](https://github.com/stdlib-js/stdlib/commit/795cdc007997c8a0db301e65e705a9237f5877f6) - **docs:** update related packages sections [(#12122)](https://github.com/stdlib-js/stdlib/pull/12122) _(by stdlib-bot)_
+-   [`3a9fd26`](https://github.com/stdlib-js/stdlib/commit/3a9fd26da1a7f28f6bacf152736affe0c601da8f) - **docs:** update related packages sections [(#12097)](https://github.com/stdlib-js/stdlib/pull/12097) _(by stdlib-bot)_
+-   [`8ef0632`](https://github.com/stdlib-js/stdlib/commit/8ef06328d08c865d85bbe52bf72783bc041870f0) - **docs:** update related packages sections [(#12089)](https://github.com/stdlib-js/stdlib/pull/12089) _(by stdlib-bot, Athan Reines)_
+-   [`0dc62ae`](https://github.com/stdlib-js/stdlib/commit/0dc62ae39a4817ff888e9736c3ea599f6beff4e5) - **build:** replace `eslint-plugin-node` with `eslint-plugin-n` [(#10952)](https://github.com/stdlib-js/stdlib/pull/10952) _(by Philipp Burckhardt, Athan Reines)_
+-   [`f3146ac`](https://github.com/stdlib-js/stdlib/commit/f3146ac8176e5449bd3cdadad3af9570122587d2) - **bench:** refactor to use string interpolation in `@stdlib/random-array` [(#11417)](https://github.com/stdlib-js/stdlib/pull/11417) _(by Karan Anand)_
+-   [`c0ca8d9`](https://github.com/stdlib-js/stdlib/commit/c0ca8d9df8f891d7004c17fd671c411f2241d1db) - **bench:** refactor to use string interpolation in `@stdlib/random-array` [(#11415)](https://github.com/stdlib-js/stdlib/pull/11415) _(by Karan Anand)_
+-   [`c7c1e58`](https://github.com/stdlib-js/stdlib/commit/c7c1e58acd2234bad33581f3f8fd83722e259023) - **bench:** refactor to use string interpolation in `@stdlib/random-array` [(#11416)](https://github.com/stdlib-js/stdlib/pull/11416) _(by Karan Anand)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 3 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Karan Anand
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.1">
 
 ## 0.3.1 (2026-02-08)
