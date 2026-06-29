@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-10)
+## Unreleased (2026-06-29)
 
 <section class="commits">
 
@@ -12,6 +12,13 @@
 
 <details>
 
+-   [`be6721e`](https://github.com/stdlib-js/stdlib/commit/be6721e3c5126e110c3975654e0765cd8d3be4b9) - **docs:** update related packages sections [(#12960)](https://github.com/stdlib-js/stdlib/pull/12960) _(by stdlib-bot)_
+-   [`56b1ffa`](https://github.com/stdlib-js/stdlib/commit/56b1ffa915832e212684741ab52bb84744facbb3) - **docs:** update related packages sections [(#12943)](https://github.com/stdlib-js/stdlib/pull/12943) _(by stdlib-bot)_
+-   [`7dabae1`](https://github.com/stdlib-js/stdlib/commit/7dabae1dcb24ce8c06f4dcdc611dc4d3c1354d73) - **docs:** update related packages sections [(#12891)](https://github.com/stdlib-js/stdlib/pull/12891) _(by stdlib-bot)_
+-   [`781d1d6`](https://github.com/stdlib-js/stdlib/commit/781d1d64f3edba9bb65baea3b4160ab2961faa1d) - **docs:** update related packages sections [(#12860)](https://github.com/stdlib-js/stdlib/pull/12860) _(by stdlib-bot)_
+-   [`730718e`](https://github.com/stdlib-js/stdlib/commit/730718ee9f523320a65d0a2bb765eaa225fbcabd) - **docs:** update related packages sections [(#12832)](https://github.com/stdlib-js/stdlib/pull/12832) _(by stdlib-bot)_
+-   [`4b35470`](https://github.com/stdlib-js/stdlib/commit/4b35470b5d827db631a59fba4f848aba4a44110c) - **docs:** update related packages sections [(#12823)](https://github.com/stdlib-js/stdlib/pull/12823) _(by stdlib-bot)_
+-   [`b603d47`](https://github.com/stdlib-js/stdlib/commit/b603d47b873c4c30fb25d3cb2368aafc21444d6b) - **test:** add missing closing brace in TypeScript test files [(#12718)](https://github.com/stdlib-js/stdlib/pull/12718) _(by Philipp Burckhardt)_
 -   [`58b187e`](https://github.com/stdlib-js/stdlib/commit/58b187ec024dd077805a2b07d8c86c67b7804f37) - **docs:** fix `assign` examples in `random/array` TypeScript declarations [(#12738)](https://github.com/stdlib-js/stdlib/pull/12738) _(by Philipp Burckhardt)_
 -   [`59f762d`](https://github.com/stdlib-js/stdlib/commit/59f762d987010b201b6807850129fa5d9f99ee7e) - **docs:** update related packages sections [(#12685)](https://github.com/stdlib-js/stdlib/pull/12685) _(by stdlib-bot)_
 -   [`51054b8`](https://github.com/stdlib-js/stdlib/commit/51054b800974a399efce175fdcdb841afaa475f5) - **docs:** update related packages sections [(#12653)](https://github.com/stdlib-js/stdlib/pull/12653) _(by stdlib-bot)_
