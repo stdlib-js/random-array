@@ -103,7 +103,7 @@
     "@stdlib/assert-is-plain-object": "^0.2.3",
     "@stdlib/assert-is-string-array": "^0.2.3",
     "@stdlib/assert-is-uint32array": "^0.2.3",
-    "@stdlib/console-log": "^0.2.3",
+    "@stdlib/console-log": "^0.2.4",
     "@stdlib/console-log-each": "^0.2.4",
     "@stdlib/constants-int32-max": "^0.3.1",
     "@stdlib/constants-uint32-max": "^0.2.3",
